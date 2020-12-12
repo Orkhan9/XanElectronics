@@ -22,36 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added subsribe">
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/CategoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Update.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_partialValidation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_adminLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_adminLayout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_adminLayout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_adminLayout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialSubscribe.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialSubscribe.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added categoryCrud" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +100,7 @@
       <workItem from="1607678060063" duration="742000" />
       <workItem from="1607680000273" duration="3748000" />
       <workItem from="1607691128967" duration="283000" />
+      <workItem from="1607753385419" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="added subsribe">
       <created>1607678084964</created>
@@ -151,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607679527673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added categoryCrud">
+      <created>1607753413056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607753413056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added categoryCrud">
+      <created>1607753423837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607753423837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added subsribe" />
-    <option name="LAST_COMMIT_MESSAGE" value="added subsribe" />
+    <MESSAGE value="added categoryCrud" />
+    <option name="LAST_COMMIT_MESSAGE" value="added categoryCrud" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1607691412908">
@@ -193,5 +180,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607691412908" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607753429579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607753429579" />
   </component>
 </project>
