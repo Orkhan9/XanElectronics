@@ -151,8 +151,6 @@ C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\Micr
 C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
@@ -162,3 +160,13 @@ C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razo
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_partialSubscribe.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_partialValidation.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\NETCore.MailKit.dll
+C:\Users\User\Desktop\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.MvcApplicationPartsAssemblyInfo.cache

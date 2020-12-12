@@ -11,6 +11,7 @@
         <e p="Areas" t="Include">
           <e p="Admin" t="Include">
             <e p="Controllers" t="Include">
+              <e p="CategoryController.cs" t="Include" />
               <e p="DashboardController.cs" t="Include" />
             </e>
             <e p="Data" t="Include" />
@@ -18,11 +19,17 @@
             <e p="Views" t="Include">
               <e p="_ViewImports.cshtml" t="Include" />
               <e p="_ViewStart.cshtml" t="Include" />
+              <e p="category" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
+              </e>
               <e p="Dashboard" t="Include">
                 <e p="Index.cshtml" t="Include" />
               </e>
               <e p="Shared" t="Include">
                 <e p="_adminLayout.cshtml" t="Include" />
+                <e p="_partialValidation.cshtml" t="Include" />
               </e>
             </e>
           </e>
@@ -44,6 +51,7 @@
           <e p="Helper.cs" t="Include" />
           <e p="IdentityErrorsDescriptionAz.cs" t="Include" />
         </e>
+        <e p="Interfaces.cs" t="Include" />
         <e p="Migrations" t="Include">
           <e p="20201210122636_AddedTables.cs" t="Include" />
           <e p="20201210122636_AddedTables.Designer.cs" t="Include" />
@@ -77,12 +85,17 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="ScaffoldingReadMe.txt" t="Include" />
+        <e p="Services" t="Include">
+          <e p="EmailService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewComponents" t="Include">
           <e p="FooterViewComponent.cs" t="Include" />
           <e p="HeaderViewComponent.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="CategoryCreateVM.cs" t="Include" />
+          <e p="CategoryUpdateVM.cs" t="Include" />
           <e p="ContactVM.cs" t="Include" />
           <e p="HomeVM.cs" t="Include" />
           <e p="LoginVm.cs" t="Include" />
@@ -325,6 +338,8 @@
                 <e p="5.jpg" t="Include" />
               </e>
               <e p="category" t="Include">
+                <e p="04fae0fd-fb5f-4450-8aed-566c9a682b8a4.jpg" t="Include" />
+                <e p="0ccaf5c8-bdd9-4053-8248-779ddeacf57e4.jpg" t="Include" />
                 <e p="1.1.jpg" t="Include" />
                 <e p="1.jpg" t="Include" />
                 <e p="2.jpg" t="Include" />
@@ -332,11 +347,15 @@
                 <e p="3.jpg" t="Include" />
                 <e p="4.1.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
+                <e p="4c65a7b6-6999-44ce-a40e-db699f962c1c7.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
+                <e p="5806da68-5e8a-421b-8fe7-9b04393754ee5.jpg" t="Include" />
+                <e p="5f06d30e-be7c-4cba-9ac6-db8e3afa87734.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
                 <e p="8.1.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
+                <e p="d5cfe373-857d-48fa-adc6-3b08d1587c294.jpg" t="Include" />
               </e>
               <e p="favicon.ico" t="Include" />
               <e p="hot-deals" t="Include">
