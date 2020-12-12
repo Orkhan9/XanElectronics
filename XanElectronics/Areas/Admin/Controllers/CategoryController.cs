@@ -77,15 +77,15 @@ namespace XanElectronics.Areas.Admin.Controllers
                 ImageUrl= fileName
             };
 
-            var callbackUrl = Url.Action(
-                   "Home",
-                   "Index",
-                   new { Id = categoryCreateVM.Id },
-                   protocol: HttpContext.Request.Scheme);
-            EmailService email = new EmailService();
-            List<string> e = _context.Subscriptions.Select(x => x.Email).ToList();
-            await email.SendEmailAsync(e, "Yeni event",
-                   "Yeni event: <a href=https://localhost:44349/Home/Index/" + $"{newCategory.Id}" + ">link</a>");
+            // var callbackUrl = Url.Action(
+            //        "Home",
+            //        "Index",
+            //        new { Id = categoryCreateVM.Id },
+            //        protocol: HttpContext.Request.Scheme);
+            // EmailService email = new EmailService();
+            // List<string> e = _context.Subscriptions.Select(x => x.Email).ToList();
+            // await email.SendEmailAsync(e, "Yeni event",
+            //        "Yeni event: <a href=https://localhost:44349/Home/Index/" + $"{newCategory.Id}" + ">link</a>");
 
             await _context.AddAsync(newCategory);
             await _context.SaveChangesAsync();
