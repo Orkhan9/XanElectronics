@@ -1,0 +1,79 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "_adminLayout";
+}
+<div class="row">
+        @foreach (var item in Model.ProductImages)
+        {
+            <div class="mr-2">
+                <img src="~/assets/img/product/@item.ImageUrl" width="400" height="200" />
+            </div>
+        }
+
+</div>
+
+<div class="row mt-5">
+    <div class="col-2">
+        <h6>Ad</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Name</p>
+</div>
+
+
+</div>
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Yeni</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.IsNew</p>
+    </div>
+</div>
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Secilmis</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.IsFeatured</p>
+    </div>
+</div>
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Category</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Category.Name</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <h6>Qiymet</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Price Azn</p>
+    </div>
+</div>
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Endirim</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.DisCountRate %</p>
+    </div>
+</div>
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>YekunQiymet</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.ResultPrice Azn</p>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <a class="btn btn-dark" asp-action="Index">Go Back</a>
+</div>
+
+
