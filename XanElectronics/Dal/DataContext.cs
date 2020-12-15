@@ -19,5 +19,7 @@ namespace XanElectronics.Dal
         public DbSet<Message> Messages { get; set; }
         public DbSet<Bio> Bios { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Service> Services { get; set; }
     }
 }

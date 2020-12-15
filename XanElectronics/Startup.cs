@@ -13,6 +13,8 @@ using XanElectronics.Models;
 using XanElectronics.Dal;
 using XanElectronics.Helpers;
 using Microsoft.AspNetCore.Identity;
+using XanElectronics.Mapper;
+using AutoMapper;
 
 namespace XanElectronics
 {
@@ -46,6 +48,7 @@ namespace XanElectronics
                 options.UseSqlServer(_config["ConnectionString:Default"]);
             });
             services.AddControllersWithViews();
+            services.AddAutoMapper(typeof(MappingProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

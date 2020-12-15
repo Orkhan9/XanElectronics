@@ -1,14 +1,126 @@
 "use strict";
 
-(function ($) {
-  "use strict"; // search-toggle
+//pagination
+let paginationItems = document.querySelectorAll('.paginationItems');
 
-  var $sToggle = $(".search-toggle");
-  var $searchBody = $(".search-body");
-  $sToggle.on("click", function (e) {
-    e.preventDefault();
-    $searchBody.slideToggle();
-  });
+paginationItems.forEach(item => {
+    item.addEventListener("click", function (e) {
+        e.preventDefault();
+        //document.getElementById('productList').innerHTML = '';
+        var pageNumber = e.target;
+        let formdata = new FormData();
+        let page = pageNumber.getAttribute("data-page");
+
+        formdata.append("page", page);
+        axios.post('/Shop/Index', formdata)
+            .then(function (response) {
+                for (var i = 0; i < response.data.length; i++) {
+                    //console.log(e.target.parentElement.parentElement.parentElement.parentElement.
+                    //    parentElement.parentElement.parentElement.previousElementSibling.
+                    //    firstElementChild.firstElementChild.firstElementChild.firstElementChild.
+                    //    firstElementChild)
+                    
+                    //    let productBox =
+                    //        `<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
+                    //                    <div class="card product-card">
+                    //                        <div class="card-body">
+                    //                            <div class="product-thumbnail position-relative parentDisCountRate">
+
+
+
+
+                    //                             <span class="badge badge-danger top-right">New</span>
+
+                    //                                <a href="single-product.html">
+
+                    //                                <img class="first-img" src="/assets/img/product/${response.data[i].productImages[0]}" alt="thumbnail">
+
+
+                    //                                </a>
+                    //                                <!-- product links -->
+                    //                                <ul class="product-links d-flex justify-content-center">
+                    //                                    <li>
+                    //                                        <a href="wishlist.html">
+                    //                                            <span data-toggle="tooltip" data-placement="bottom"
+                    //                                                  title="add to wishlist" class="icon-heart"> </span>
+                    //                                        </a>
+                    //                                    </li>
+                    //                                    <li>
+                    //                                        <a href="#" data-toggle="modal" data-target="#compare">
+                    //                                            <span data-toggle="tooltip" data-placement="bottom"
+                    //                                                  title="Add to compare" class="icon-shuffle"></span>
+                    //                                        </a>
+                    //                                    </li>
+                    //                                    <li>
+                    //                                        <a href="#" data-toggle="modal" data-target="#quick-view">
+                    //                                            <span data-toggle="tooltip" data-placement="bottom"
+                    //                                                  title="Quick view" class="icon-magnifier"></span>
+                    //                                        </a>
+                    //                                    </li>
+                    //                                </ul>
+
+                    //                            </div>
+                    //                            <div class="product-desc py-0">
+                    //                                <h3 class="title">
+                    //                                    <a href="shop-grid-4-column.html">
+                    //                                        ${response.data[i].name}
+                    //                                    </a>
+                    //                                </h3>
+                    //                                <div class="star-rating">
+                    //                                    ${response.data[i].star}
+                    //                                    <span class="ion-ios-star"></span>
+                    //                                </div>
+                    //                                <div class="d-flex align-items-center justify-content-between">
+
+
+
+                    //                                        <h6 class="product-price resultPrice">
+                    //                                            <del class="del">$ ${response.data[i].price}</del>
+                    //                                            <span class="onsale">$ ${response.data[i].resultPrice}</span>
+                    //                                        </h6>
+
+
+                    //                                        <h6 class="product-price">$ ${response.data[i].price}</h6>
+
+
+
+
+                    //                                    <button class="pro-btn" data-toggle="modal"
+                    //                                            data-target="#add-to-cart">
+                    //                                        <i class="icon-basket"></i>
+                    //                                    </button>
+                    //                                </div>
+                    //                            </div>
+                    //                        </div>
+                    //                    </div>
+                    //                </div>`
+
+
+
+                    //    document.getElementById('productList').innerHTML+=productBox;
+                }
+            })
+            .catch(function (error) {
+                if (error.response) {
+                    let errorObj = error.response.data;
+                    for (let errors in errorObj) {
+                        let error = errorObj[errors];
+                        console.log(error);
+                    }
+                }
+            });
+    })
+})
+
+//(function ($) {
+//  "use strict"; // search-toggle
+
+//  var $sToggle = $(".search-toggle");
+//  var $searchBody = $(".search-body");
+//  $sToggle.on("click", function (e) {
+//    e.preventDefault();
+//    $searchBody.slideToggle();
+//  });
   /*---------------------------
           Commons Variables
        ------------------------------ */
@@ -862,4 +974,4 @@
   } else {
     scrollUp.addClass("theme-default");
   }
-})(jQuery);
+ (jQuery);

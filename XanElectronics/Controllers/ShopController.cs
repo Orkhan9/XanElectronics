@@ -2,18 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using XanElectronics.Dal;
+using XanElectronics.Dto;
+using XanElectronics.Models;
 
 namespace XanElectronics.Controllers
 {
     public class ShopController : Controller
     {
         private readonly DataContext _context;
-        public ShopController(DataContext context)
+        private readonly IMapper _mapper;
+        public ShopController(DataContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         public IActionResult Index(int? page)
         {
@@ -30,7 +36,8 @@ namespace XanElectronics.Controllers
             {
                 var products = _context.Products.OrderByDescending(p => p.Id).Skip(((int)page - 1) * 4)
                  .Take(4).Include(c => c.Category).Include(c => c.ProductImages).ToList();
-                return View(products);
+                var mapProducts = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductReturnDto>>(products);
+                return Ok(mapProducts);
             }
         }
     }

@@ -1,7 +1,6 @@
 ﻿@model IEnumerable<Product>
 @{
     ViewData["Title"] = "Index";
-    decimal lorem=0;
 }
 
 <!-- breadcrumb-section start -->
@@ -73,7 +72,7 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                          aria-labelledby="pills-home-tab">
-                        <div class="row grid-view theme1">
+                        <div class="row grid-view theme1" id="productList">
                             @foreach (var item in Model)
                             {
                                 <div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
@@ -134,16 +133,14 @@
 
                                                     @if (item.DisCountRate > 0)
                                                     {
-                                                        lorem = (item.Price * item.DisCountRate) / 100;
-
                                                         <h6 class="product-price">
-                                                            <del class="del">@item.Price</del>
-                                                            <span class="onsale">$ @String.Format("{0:0.00}", (item.Price - lorem))</span>
+                                                            <del class="del">$ @item.Price</del>
+                                                            <span class="onsale">$ @item.ResultPrice</span>
                                                         </h6>
                                                     }
                                                     else
                                                     {
-                                                        <h6 class="product-price">@item.Price Azn</h6>
+                                                        <h6 class="product-price">$ @item.Price</h6>
                                                     }
                                                     <button class="pro-btn" data-toggle="modal"
                                                             data-target="#add-to-cart">
@@ -167,14 +164,8 @@
                                     <ul class="pagination justify-content-center">
                                         @for (int i = 1; i <= ViewBag.PageCount; i++)
                                         {
-                                            if (ViewBag.Page == i)
-                                            {
-                                                <li class="page-item disabled active"><a class="page-link" href="#">@i</a></li>
-                                            }
-                                            else
-                                            {
-                                                <li class="page-item"><a class="page-link" asp-controller="Shop" asp-action="Index" asp-route-page="@i">@i</a></li>
-                                            }
+                                            <li class="page-item paginationItems"><a class="page-link" data-page="@i">@i</a></li>
+                                            
                                         }
                                     </ul>
                                 </div>

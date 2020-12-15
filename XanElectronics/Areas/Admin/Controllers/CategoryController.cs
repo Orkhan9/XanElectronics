@@ -29,7 +29,7 @@ namespace XanElectronics.Areas.Admin.Controllers
         // GET
         public IActionResult Index()
         {
-            return View(_context.Categories.ToList());
+            return View(_context.Categories.Where(x=>x.IsDeleted==false).ToList());
         }
         
         public IActionResult Create()
@@ -73,7 +73,7 @@ namespace XanElectronics.Areas.Admin.Controllers
 
             Category newCategory = new Category
             {
-                Name = categoryCreateVM.Name,
+                Name = categoryCreateVM.Name.ToLower(),
                 ImageUrl= fileName
             };
 
@@ -161,8 +161,7 @@ namespace XanElectronics.Areas.Admin.Controllers
             if (id == null) return NotFound();
             Category category = _context.Categories.FirstOrDefault(c => c.Id == id);
             if (category == null) return NotFound();
-            // category.IsDeleted = true;
-            _context.Categories.Remove(category);
+            category.IsDeleted = true;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

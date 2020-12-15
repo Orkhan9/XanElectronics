@@ -44,6 +44,9 @@
         <e p="Dal" t="Include">
           <e p="DataContext.cs" t="Include" />
         </e>
+        <e p="Dto" t="Include">
+          <e p="ProductReturnDto.cs" t="Include" />
+        </e>
         <e p="Extentions" t="Include">
           <e p="Extentions.cs" t="Include" />
         </e>
@@ -52,6 +55,9 @@
           <e p="IdentityErrorsDescriptionAz.cs" t="Include" />
         </e>
         <e p="Interfaces.cs" t="Include" />
+        <e p="Mapper" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20201210122636_AddedTables.cs" t="Include" />
           <e p="20201210122636_AddedTables.Designer.cs" t="Include" />
@@ -61,6 +67,14 @@
           <e p="20201210202008_changedBioTable.Designer.cs" t="Include" />
           <e p="20201210210049_addedSubscriptionTable.cs" t="Include" />
           <e p="20201210210049_addedSubscriptionTable.Designer.cs" t="Include" />
+          <e p="20201212064956_changedProductTable.cs" t="Include" />
+          <e p="20201212064956_changedProductTable.Designer.cs" t="Include" />
+          <e p="20201212065547_changedCategoryTable.cs" t="Include" />
+          <e p="20201212065547_changedCategoryTable.Designer.cs" t="Include" />
+          <e p="20201212070253_addedDisCountColumnProductTable.cs" t="Include" />
+          <e p="20201212070253_addedDisCountColumnProductTable.Designer.cs" t="Include" />
+          <e p="20201212085026_changedcolumnDiscountProductTable.cs" t="Include" />
+          <e p="20201212085026_changedcolumnDiscountProductTable.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
