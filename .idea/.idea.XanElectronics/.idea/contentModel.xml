@@ -13,6 +13,7 @@
             <e p="Controllers" t="Include">
               <e p="CategoryController.cs" t="Include" />
               <e p="DashboardController.cs" t="Include" />
+              <e p="ProductController.cs" t="Include" />
             </e>
             <e p="Data" t="Include" />
             <e p="Models" t="Include" />
@@ -26,6 +27,12 @@
               </e>
               <e p="Dashboard" t="Include">
                 <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="product" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Detail.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
               </e>
               <e p="Shared" t="Include">
                 <e p="_adminLayout.cshtml" t="Include" />
@@ -46,6 +53,7 @@
         </e>
         <e p="Dto" t="Include">
           <e p="ProductReturnDto.cs" t="Include" />
+          <e p="ProductUpdateDto.cs" t="Include" />
         </e>
         <e p="Extentions" t="Include">
           <e p="Extentions.cs" t="Include" />
@@ -75,15 +83,27 @@
           <e p="20201212070253_addedDisCountColumnProductTable.Designer.cs" t="Include" />
           <e p="20201212085026_changedcolumnDiscountProductTable.cs" t="Include" />
           <e p="20201212085026_changedcolumnDiscountProductTable.Designer.cs" t="Include" />
+          <e p="20201212160338_addedResultPriceColumnProductTable.cs" t="Include" />
+          <e p="20201212160338_addedResultPriceColumnProductTable.Designer.cs" t="Include" />
+          <e p="20201213085103_addBrandTable.cs" t="Include" />
+          <e p="20201213085103_addBrandTable.Designer.cs" t="Include" />
+          <e p="20201213090145_addedServiceTable.cs" t="Include" />
+          <e p="20201213090145_addedServiceTable.Designer.cs" t="Include" />
+          <e p="20201213110323_addedProductCountColumnCategoryTable.cs" t="Include" />
+          <e p="20201213110323_addedProductCountColumnCategoryTable.Designer.cs" t="Include" />
+          <e p="20201214191713_addedIsDeletedColumnProductandCategoryTables.cs" t="Include" />
+          <e p="20201214191713_addedIsDeletedColumnProductandCategoryTables.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="AppUser.cs" t="Include" />
           <e p="Bio.cs" t="Include" />
+          <e p="Brand.cs" t="Include" />
           <e p="Category.cs" t="Include" />
           <e p="Message.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="ProductImage.cs" t="Include" />
+          <e p="Service.cs" t="Include" />
           <e p="Subscription.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -114,6 +134,7 @@
           <e p="HomeVM.cs" t="Include" />
           <e p="LoginVm.cs" t="Include" />
           <e p="MessageCreateVM.cs" t="Include" />
+          <e p="ProductCreateVM.cs" t="Include" />
           <e p="RegisterVm.cs" t="Include" />
           <e p="SubscriptionCreateVM.cs" t="Include" />
         </e>
@@ -354,6 +375,7 @@
               <e p="category" t="Include">
                 <e p="04fae0fd-fb5f-4450-8aed-566c9a682b8a4.jpg" t="Include" />
                 <e p="0ccaf5c8-bdd9-4053-8248-779ddeacf57e4.jpg" t="Include" />
+                <e p="0e5f4723-58b8-46ba-add0-a278cccdf0f17.jpg" t="Include" />
                 <e p="1.1.jpg" t="Include" />
                 <e p="1.jpg" t="Include" />
                 <e p="2.jpg" t="Include" />
@@ -367,8 +389,12 @@
                 <e p="5f06d30e-be7c-4cba-9ac6-db8e3afa87734.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
+                <e p="7d942ff1-8452-43a8-b391-7fedcf54c3d69.jpg" t="Include" />
                 <e p="8.1.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
+                <e p="ac4b7764-4a0b-4f98-9868-99b6a99bd2c97.jpg" t="Include" />
+                <e p="b69f8232-ca62-47f9-9f7a-d96442044af38.jpg" t="Include" />
+                <e p="bbeadb0a-4ee3-4ea7-adae-c38df5e06ab97 - Copy.jpg" t="Include" />
                 <e p="d5cfe373-857d-48fa-adc6-3b08d1587c294.jpg" t="Include" />
               </e>
               <e p="favicon.ico" t="Include" />
@@ -467,7 +493,6 @@
                 <e p="popular-bg.jpg" t="Include" />
               </e>
               <e p="product" t="Include">
-                <e p="1.jpg" t="Include" />
                 <e p="10.jpg" t="Include" />
                 <e p="11.jpg" t="Include" />
                 <e p="12.jpg" t="Include" />
@@ -492,6 +517,7 @@
                 <e p="3.jpg" t="Include" />
                 <e p="30.1.jpg" t="Include" />
                 <e p="30.jpg" t="Include" />
+                <e p="30448294-92ff-4fe4-adae-cd5d368704828.jpg" t="Include" />
                 <e p="31.jpg" t="Include" />
                 <e p="32.1.jpg" t="Include" />
                 <e p="32.jpg" t="Include" />
@@ -503,10 +529,16 @@
                 <e p="38.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
+                <e p="5299897b-e2da-47ea-bd3a-a458f2221bf08.1.jpg" t="Include" />
+                <e p="5d037f7c-30fb-400c-9bfb-633d9ef9d96f8 - Copy.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
+                <e p="659576af-150e-4945-af0c-b386cac39c977.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
+                <e p="82083746-dfeb-4019-937a-c0ab7afa11827.jpg" t="Include" />
                 <e p="9.jpg" t="Include" />
+                <e p="b23f3496-0aa2-4b7f-9999-a42871157aba7 - Copy.jpg" t="Include" />
+                <e p="bec529a5-f89f-4971-a635-e115d3f768c87 - Copy.jpg" t="Include" />
               </e>
               <e p="single-product" t="Include">
                 <e p="1.2x.jpg" t="Include" />
