@@ -336,6 +336,9 @@ namespace XanElectronics.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<int>("DisCountRate")
                         .HasColumnType("int");
 

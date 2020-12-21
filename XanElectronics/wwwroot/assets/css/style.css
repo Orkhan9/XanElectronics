@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
     Template Name: Junno – Multipurpose eCommerce HTML Template
@@ -6501,7 +6501,7 @@ footer::after {
 # Whishlist Page
 *------------------*/
 @media (max-width: 991px) {
-  .whish-list-section .table {
+    .whish-list-section .table {
     min-width: 1000px;
   }
 }

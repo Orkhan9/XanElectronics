@@ -34,7 +34,8 @@ namespace XanElectronics.Areas.Admin.Controllers
         // GET
         public IActionResult Index()
         {
-            return View(_context.Products.Where(x=>x.IsDeleted==false).Include(x=>x.ProductImages).Include(x=>x.Category).ToList());
+            return View(_context.Products.Where(x=>x.IsDeleted==false).
+                Include(x=>x.ProductImages).Include(x=>x.Category).ToList());
         }
 
 
@@ -223,8 +224,28 @@ namespace XanElectronics.Areas.Admin.Controllers
             var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
             if (product == null) return NotFound();
             product.IsDeleted = true;
+            var category = _context.Categories.FirstOrDefault(x => x.Id == product.CategoryId);
+            category.ProductCount--;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Recover(int? id)
+        {
+            if (id == null) return NotFound();
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (product == null) return NotFound();
+            product.IsDeleted = false;
+            var category = _context.Categories.FirstOrDefault(x => x.Id == product.CategoryId);
+            category.ProductCount++;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(DeletedList));
+        }
+
+        public IActionResult DeletedList()
+        {
+            return View(_context.Products.Where(x => x.IsDeleted == true).Include(x => x.ProductImages).
+                Include(x => x.Category).ToList());
         }
     }
 }

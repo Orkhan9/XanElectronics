@@ -176,3 +176,6 @@ C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razo
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Detail.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Update.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\DeletedList.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
+C:\Users\User\Desktop\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_partialPagination.cshtml.g.cs

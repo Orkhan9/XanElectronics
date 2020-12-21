@@ -22,35 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added shoppagination">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added productCrud">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +61,8 @@
         <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Create.cshtml" />
         <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/CategoryController.cs" />
         <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" />
+        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +123,7 @@
       <workItem from="1607753385419" duration="78000" />
       <workItem from="1607766846603" duration="109000" />
       <workItem from="1607776656416" duration="84000" />
+      <workItem from="1608019427691" duration="481000" />
     </task>
     <task id="LOCAL-00001" summary="added subsribe">
       <created>1607678084964</created>
@@ -190,7 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607766939978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added productCrud">
+      <created>1608019449593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608019449593</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added productCrud">
+      <created>1608019458424</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608019458424</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added productCrud">
+      <created>1608019530190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608019530190</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,28 +227,29 @@
     <MESSAGE value="added subsribe" />
     <MESSAGE value="added categoryCrud" />
     <MESSAGE value="added shoppagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="added shoppagination" />
+    <MESSAGE value="added productCrud" />
+    <option name="LAST_COMMIT_MESSAGE" value="added productCrud" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1607691412908">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608019911470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607691412908" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1607691412908">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608019911470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607691412908" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1607691412908">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608019911470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607691412908" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1607691412908">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608019911470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607691412908" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607766946216">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608019536743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607766946216" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608019536743" />
   </component>
 </project>

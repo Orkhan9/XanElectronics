@@ -2,103 +2,71 @@
 
 //pagination
 let paginationItems = document.querySelectorAll('.paginationItems');
-
+var arr = [];
 paginationItems.forEach(item => {
     item.addEventListener("click", function (e) {
         e.preventDefault();
-        //document.getElementById('productList').innerHTML = '';
+        let previous = document.getElementById("previous");
+        let next = document.getElementById("next");
+        let pageCount = document.getElementById("pageCount").value;
         var pageNumber = e.target;
         let formdata = new FormData();
-        let page = pageNumber.getAttribute("data-page");
 
+        var page = parseInt(pageNumber.getAttribute("data-page"));
+
+        arr.push(page);
+        //previous
+        if (e.target == previous) {
+            if (isNaN(arr[0])) {
+                arr.pop();
+                return;
+            }
+
+            if (isNaN(arr[arr.length - 1])) {
+                arr.pop();
+                page = arr[arr.length - 1];
+                
+                page--;
+                arr.push(page);
+                
+            } else {
+                page = arr[arr.length - 1];
+                page--;
+            }
+        } 
+
+        if (page < 1) {
+            arr.pop();
+            return;
+        }
+
+        //next
+        if (e.target == next) {
+            if (isNaN(arr[0])) {
+                arr.pop();
+                page = 1;
+                arr.push(page);
+            }
+            if (isNaN(arr[arr.length - 1])) {
+                arr.pop();
+                page = arr[arr.length - 1];
+                if (page == pageCount) {return;}
+                page++;
+                arr.push(page);
+            } else {
+                page = arr[arr.length - 1];
+                page++;
+                arr.push(page);
+            }
+        } 
+
+        
         formdata.append("page", page);
         axios.post('/Shop/Index', formdata)
             .then(function (response) {
-                for (var i = 0; i < response.data.length; i++) {
-                    //console.log(e.target.parentElement.parentElement.parentElement.parentElement.
-                    //    parentElement.parentElement.parentElement.previousElementSibling.
-                    //    firstElementChild.firstElementChild.firstElementChild.firstElementChild.
-                    //    firstElementChild)
-                    
-                    //    let productBox =
-                    //        `<div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
-                    //                    <div class="card product-card">
-                    //                        <div class="card-body">
-                    //                            <div class="product-thumbnail position-relative parentDisCountRate">
+                //console.log(response.data)
+                document.getElementById("productList").innerHTML = response.data;
 
-
-
-
-                    //                             <span class="badge badge-danger top-right">New</span>
-
-                    //                                <a href="single-product.html">
-
-                    //                                <img class="first-img" src="/assets/img/product/${response.data[i].productImages[0]}" alt="thumbnail">
-
-
-                    //                                </a>
-                    //                                <!-- product links -->
-                    //                                <ul class="product-links d-flex justify-content-center">
-                    //                                    <li>
-                    //                                        <a href="wishlist.html">
-                    //                                            <span data-toggle="tooltip" data-placement="bottom"
-                    //                                                  title="add to wishlist" class="icon-heart"> </span>
-                    //                                        </a>
-                    //                                    </li>
-                    //                                    <li>
-                    //                                        <a href="#" data-toggle="modal" data-target="#compare">
-                    //                                            <span data-toggle="tooltip" data-placement="bottom"
-                    //                                                  title="Add to compare" class="icon-shuffle"></span>
-                    //                                        </a>
-                    //                                    </li>
-                    //                                    <li>
-                    //                                        <a href="#" data-toggle="modal" data-target="#quick-view">
-                    //                                            <span data-toggle="tooltip" data-placement="bottom"
-                    //                                                  title="Quick view" class="icon-magnifier"></span>
-                    //                                        </a>
-                    //                                    </li>
-                    //                                </ul>
-
-                    //                            </div>
-                    //                            <div class="product-desc py-0">
-                    //                                <h3 class="title">
-                    //                                    <a href="shop-grid-4-column.html">
-                    //                                        ${response.data[i].name}
-                    //                                    </a>
-                    //                                </h3>
-                    //                                <div class="star-rating">
-                    //                                    ${response.data[i].star}
-                    //                                    <span class="ion-ios-star"></span>
-                    //                                </div>
-                    //                                <div class="d-flex align-items-center justify-content-between">
-
-
-
-                    //                                        <h6 class="product-price resultPrice">
-                    //                                            <del class="del">$ ${response.data[i].price}</del>
-                    //                                            <span class="onsale">$ ${response.data[i].resultPrice}</span>
-                    //                                        </h6>
-
-
-                    //                                        <h6 class="product-price">$ ${response.data[i].price}</h6>
-
-
-
-
-                    //                                    <button class="pro-btn" data-toggle="modal"
-                    //                                            data-target="#add-to-cart">
-                    //                                        <i class="icon-basket"></i>
-                    //                                    </button>
-                    //                                </div>
-                    //                            </div>
-                    //                        </div>
-                    //                    </div>
-                    //                </div>`
-
-
-
-                    //    document.getElementById('productList').innerHTML+=productBox;
-                }
             })
             .catch(function (error) {
                 if (error.response) {

@@ -162,12 +162,25 @@
                             <div class="row align-items-center">
                                 <div class="col-12">
                                     <ul class="pagination justify-content-center">
+                                        <li class="page-item paginationItems">
+                                            <i class="fas fa-angle-double-left fa-lg" id="previous" style="cursor:pointer"></i>
+                                        </li>
                                         @for (int i = 1; i <= ViewBag.PageCount; i++)
                                         {
-                                            <li class="page-item paginationItems"><a class="page-link" data-page="@i">@i</a></li>
-                                            
+                                            if (i < 5)
+                                            {
+                                                <li class="page-item paginationItems"><a class="page-link" data-page="@i">@i</a></li>
+                                            }
+                                            else
+                                            {
+                                                <li class="page-item paginationItems d-none"><a class="page-link" data-page="@i">@i</a></li>
+                                            }
                                         }
+                                            <li class="page-item paginationItems">
+                                                <i class="fas fa-angle-double-right fa-lg" id="next" style="cursor:pointer"></i>
+                                            </li>
                                     </ul>
+                                    <input type="hidden" id="pageCount" value="@ViewBag.PageCount" />
                                 </div>
                             </div>
                         </nav>

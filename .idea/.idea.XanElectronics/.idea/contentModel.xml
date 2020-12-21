@@ -30,6 +30,7 @@
               </e>
               <e p="product" t="Include">
                 <e p="Create.cshtml" t="Include" />
+                <e p="DeletedList.cshtml" t="Include" />
                 <e p="Detail.cshtml" t="Include" />
                 <e p="Index.cshtml" t="Include" />
                 <e p="Update.cshtml" t="Include" />
@@ -44,6 +45,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
+          <e p="BasketController.cs" t="Include" />
           <e p="ContactController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="ShopController.cs" t="Include" />
@@ -93,6 +95,8 @@
           <e p="20201213110323_addedProductCountColumnCategoryTable.Designer.cs" t="Include" />
           <e p="20201214191713_addedIsDeletedColumnProductandCategoryTables.cs" t="Include" />
           <e p="20201214191713_addedIsDeletedColumnProductandCategoryTables.Designer.cs" t="Include" />
+          <e p="20201215095657_addedCountColumnProductTable.cs" t="Include" />
+          <e p="20201215095657_addedCountColumnProductTable.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -128,6 +132,7 @@
           <e p="HeaderViewComponent.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="BasketVM.cs" t="Include" />
           <e p="CategoryCreateVM.cs" t="Include" />
           <e p="CategoryUpdateVM.cs" t="Include" />
           <e p="ContactVM.cs" t="Include" />
@@ -145,6 +150,9 @@
             <e p="Login.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
+          <e p="Basket" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Contact" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
@@ -153,6 +161,7 @@
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_partialPagination.cshtml" t="Include" />
             <e p="_partialSubscribe.cshtml" t="Include" />
             <e p="components" t="Include">
               <e p="footer" t="Include">

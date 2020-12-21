@@ -12,6 +12,7 @@ namespace XanElectronics.Models
         public decimal Price { get; set; }
         public decimal ResultPrice { get; set; }
         public int DisCountRate { get; set; }
+        public int Count { get; set; }
         public int Star { get; set; }
         public bool IsNew { get; set; }
         public bool IsFeatured { get; set; }

@@ -36,8 +36,7 @@ namespace XanElectronics.Controllers
             {
                 var products = _context.Products.OrderByDescending(p => p.Id).Skip(((int)page - 1) * 4)
                  .Take(4).Include(c => c.Category).Include(c => c.ProductImages).ToList();
-                var mapProducts = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductReturnDto>>(products);
-                return Ok(mapProducts);
+                return PartialView("_partialPagination",products);
             }
         }
     }
