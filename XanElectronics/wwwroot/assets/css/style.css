@@ -267,6 +267,8 @@ span.separator {
   }
 }
 
+
+
 .custom-column .row > .col-xl-4 {
   max-width: 100%;
 }
@@ -3801,10 +3803,10 @@ breadcrumb-section END
    product-card style 
  ********************************/
 .tab-content .tab-pane.active .product-list {
-  -webkit-animation: zoomIn 0.5s ease;
-          animation: zoomIn 0.5s ease;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+    -webkit-animation: zoomIn 0.5s ease;
+    animation: zoomIn 0.5s ease;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 .product-thumbnail img {

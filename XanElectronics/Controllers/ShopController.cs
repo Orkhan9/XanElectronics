@@ -39,5 +39,13 @@ namespace XanElectronics.Controllers
                 return PartialView("_partialPagination",products);
             }
         }
+
+        public IActionResult Detail(int? id)
+        {
+            if (id == null) return NotFound();
+            var product = _context.Products.Include(x => x.ProductImages).FirstOrDefault(x => x.Id == id);
+            if (product == null) return BadRequest();
+            return View(product);
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace XanElectronics.Models
     {
         public string Fullname { get; set; }
         public bool IsActivated { get; set; }
-
+        public ICollection<Sale> Sales { get; set; }
 
     }
 }

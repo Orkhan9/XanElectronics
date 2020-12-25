@@ -14,6 +14,8 @@ namespace XanElectronics.Dal
         {
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Sale> Sales { get; set; }
+        public DbSet<SaleProduct> SaleProducts { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Message> Messages { get; set; }

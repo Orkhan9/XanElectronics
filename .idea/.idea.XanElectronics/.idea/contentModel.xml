@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_XanElectronics.381599800.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\User\Desktop\XanElectronics" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="XanElectronics" t="IncludeRecursive">
@@ -48,6 +49,7 @@
           <e p="BasketController.cs" t="Include" />
           <e p="ContactController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="SearchController.cs" t="Include" />
           <e p="ShopController.cs" t="Include" />
         </e>
         <e p="Dal" t="Include">
@@ -97,6 +99,10 @@
           <e p="20201214191713_addedIsDeletedColumnProductandCategoryTables.Designer.cs" t="Include" />
           <e p="20201215095657_addedCountColumnProductTable.cs" t="Include" />
           <e p="20201215095657_addedCountColumnProductTable.Designer.cs" t="Include" />
+          <e p="20201222200559_addedSaleandSaleProductTables.cs" t="Include" />
+          <e p="20201222200559_addedSaleandSaleProductTables.Designer.cs" t="Include" />
+          <e p="20201222204309_addedColumnSaleTable.cs" t="Include" />
+          <e p="20201222204309_addedColumnSaleTable.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -107,6 +113,8 @@
           <e p="Message.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="ProductImage.cs" t="Include" />
+          <e p="Sale.cs" t="Include" />
+          <e p="SaleProduct.cs" t="Include" />
           <e p="Service.cs" t="Include" />
           <e p="Subscription.cs" t="Include" />
         </e>
@@ -151,6 +159,7 @@
             <e p="Register.cshtml" t="Include" />
           </e>
           <e p="Basket" t="Include">
+            <e p="BasketSale.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Contact" t="Include">
@@ -162,6 +171,7 @@
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_partialPagination.cshtml" t="Include" />
+            <e p="_partialProduct.cshtml" t="Include" />
             <e p="_partialSubscribe.cshtml" t="Include" />
             <e p="components" t="Include">
               <e p="footer" t="Include">
@@ -173,6 +183,7 @@
             </e>
           </e>
           <e p="Shop" t="Include">
+            <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
         </e>
@@ -506,8 +517,10 @@
                 <e p="11.jpg" t="Include" />
                 <e p="12.jpg" t="Include" />
                 <e p="13.jpg" t="Include" />
+                <e p="13e21aa9-abbd-4e1e-9725-a38ebe0e7fa104_gallery.jpg" t="Include" />
                 <e p="14.jpg" t="Include" />
                 <e p="15.jpg" t="Include" />
+                <e p="152f3e4b-90d2-4a2e-ae09-b9812960f2e901_gallery.jpg" t="Include" />
                 <e p="16.jpg" t="Include" />
                 <e p="17.jpg" t="Include" />
                 <e p="18.jpg" t="Include" />
@@ -532,22 +545,31 @@
                 <e p="32.jpg" t="Include" />
                 <e p="33.jpg" t="Include" />
                 <e p="34.jpg" t="Include" />
+                <e p="348fb635-f97e-4e41-932b-bb24659127d96.jpg" t="Include" />
                 <e p="35.jpg" t="Include" />
                 <e p="36.jpg" t="Include" />
                 <e p="37.jpg" t="Include" />
                 <e p="38.jpg" t="Include" />
+                <e p="3e1dfba5-6656-49b4-ac36-8275f1fd74d75.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
+                <e p="4aed39d8-e7ee-47d5-8fe3-f768cfafbb4302_gallery.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
                 <e p="5299897b-e2da-47ea-bd3a-a458f2221bf08.1.jpg" t="Include" />
+                <e p="5494228b-3ed0-49a0-a2e8-e07c8d97b21f05_gallery.jpg" t="Include" />
+                <e p="54a8fd04-d8ea-453b-84c9-861a1d65f9aa4.jpg" t="Include" />
                 <e p="5d037f7c-30fb-400c-9bfb-633d9ef9d96f8 - Copy.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
                 <e p="659576af-150e-4945-af0c-b386cac39c977.jpg" t="Include" />
+                <e p="6976cdc0-9dfc-46fb-affa-881b0712aed13.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
                 <e p="82083746-dfeb-4019-937a-c0ab7afa11827.jpg" t="Include" />
                 <e p="9.jpg" t="Include" />
+                <e p="a8087b10-a202-406d-828f-22980b37d7fc2.jpg" t="Include" />
                 <e p="b23f3496-0aa2-4b7f-9999-a42871157aba7 - Copy.jpg" t="Include" />
+                <e p="b48d14e5-f2c9-457e-9e97-380f136de4d103_gallery.jpg" t="Include" />
                 <e p="bec529a5-f89f-4971-a635-e115d3f768c87 - Copy.jpg" t="Include" />
+                <e p="d9ce039f-77c7-4c03-a479-93181e6003b606_gallery.jpg" t="Include" />
               </e>
               <e p="single-product" t="Include">
                 <e p="1.2x.jpg" t="Include" />
@@ -600,6 +622,7 @@
               <e p="stodio.jpg" t="Include" />
             </e>
             <e p="js" t="Include">
+              <e p="basket-pagination.js" t="Include" />
               <e p="bootstrap.min.js" t="Include" />
               <e p="main.js" t="Include" />
               <e p="main.min.js" t="Include" />

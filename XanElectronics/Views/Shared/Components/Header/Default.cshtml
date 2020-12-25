@@ -580,14 +580,17 @@
                             </ul>
                             <!-- menu content -->
                         </div>
-                        <div class="search-form width-calc-from-left pl-35 mt-30 mt-lg-0">
+                        <div class="search-form width-calc-from-left pl-35 mt-30 mt-lg-0"
+                             style="position:relative">
                             <form class="form-inline position-relative">
-                                <input class="form-control theme3" type="search"
-                                       placeholder="Enter your search key ...">
+                                <input class="form-control theme3" id="input-search"
+                                       placeholder="Enter your search key ..." style="width:400px">
                                 <button class="btn bg-white search-btn position-left" type="submit">
                                     <i class="icon-magnifier"></i>
                                 </button>
                             </form>
+                            <i class="fas fa-times d-none" style="position:absolute;top:15px;right:185px;cursor:pointer"></i>
+                            <div class="row" id="searchList" style="position:absolute;top:50px;background-color:white;z-index:1000;width:400px"></div>
                         </div>
                     </div>
                 </div>
@@ -596,7 +599,7 @@
                     <div class="d-flex align-items-center justify-content-center justify-content-sm-end">
                         <div class="cart-block-links theme3">
                             <ul class="d-flex">
-                                @*<li>
+                                <li>
                                     <a href="compare.html">
                                         <span class="position-relative">
                                             <i class="icon-shuffle"></i>
@@ -611,14 +614,14 @@
                                             <span class="badge cbdg1">3</span>
                                         </span>
                                     </a>
-                                </li>*@
+                                </li>
                                 <li class="mr-0 cart-block position-relative">
-                                    <a class="offcanvas-toggle" asp-controller="Basket" asp-action="Index">
+                                    <a asp-controller="Basket" asp-action="Index">
                                         <span class="position-relative">
                                             <i class="icon-bag"></i>
-                                            <span class="badge cbdg1">3</span>
+                                            <span class="badge cbdg1" id="totalCountNav">@ViewBag.BasketCount</span>
                                         </span>
-                                        <span class="cart-total position-relative">$90.00</span>
+                                        <span class="cart-total position-relative" id="totalPriceNav">$ @ViewBag.TotalPrice</span>
                                     </a>
                                 </li>
                                 <!-- cart block end -->

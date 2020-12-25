@@ -46,7 +46,7 @@
                 </div>
                 <div class="product-desc py-0">
                     <h3 class="title">
-                        <a href="shop-grid-4-column.html">
+                        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                             @item.Name
                         </a>
                     </h3>
@@ -69,9 +69,8 @@
                         {
                             <h6 class="product-price">$ @item.Price</h6>
                         }
-                        <button class="pro-btn" data-toggle="modal"
-                                data-target="#add-to-cart">
-                            <i class="icon-basket"></i>
+                        <button class="pro-btn">
+                            <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                         </button>
                     </div>
                 </div>
@@ -79,4 +78,16 @@
         </div>
         <!-- product-list End -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/assets/js/subscribe-mail.js"></script>
+    <script src="~/assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="~/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/plugins/jquery-ui.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/plugins/plugins.js"></script>
+    <script src="~/assets/js/main.js"></script>
 }
+

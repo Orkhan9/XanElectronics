@@ -1,83 +1,29 @@
 "use strict";
+//search
+let removeBtn = document.querySelector(".fa-times");
 
-//pagination
-let paginationItems = document.querySelectorAll('.paginationItems');
-var arr = [];
-paginationItems.forEach(item => {
-    item.addEventListener("click", function (e) {
-        e.preventDefault();
-        let previous = document.getElementById("previous");
-        let next = document.getElementById("next");
-        let pageCount = document.getElementById("pageCount").value;
-        var pageNumber = e.target;
-        let formdata = new FormData();
-
-        var page = parseInt(pageNumber.getAttribute("data-page"));
-
-        arr.push(page);
-        //previous
-        if (e.target == previous) {
-            if (isNaN(arr[0])) {
-                arr.pop();
-                return;
+$(document).on('keyup', '#input-search', function () {
+    let search = $(this).val().trim();
+    removeBtn.classList.remove("d-none");
+    if (search == "") {
+        removeBtn.classList.add("d-none");
+    }
+    $("#searchList a").remove();
+    if (search.length > 0) {
+        $.ajax({
+            url: "/Search/Search?search=" + search,
+            type: "Get",
+            success: function (res) {
+                $("#searchList").append(res);
             }
+        })
+    }
+})
 
-            if (isNaN(arr[arr.length - 1])) {
-                arr.pop();
-                page = arr[arr.length - 1];
-                
-                page--;
-                arr.push(page);
-                
-            } else {
-                page = arr[arr.length - 1];
-                page--;
-            }
-        } 
-
-        if (page < 1) {
-            arr.pop();
-            return;
-        }
-
-        //next
-        if (e.target == next) {
-            if (isNaN(arr[0])) {
-                arr.pop();
-                page = 1;
-                arr.push(page);
-            }
-            if (isNaN(arr[arr.length - 1])) {
-                arr.pop();
-                page = arr[arr.length - 1];
-                if (page == pageCount) {return;}
-                page++;
-                arr.push(page);
-            } else {
-                page = arr[arr.length - 1];
-                page++;
-                arr.push(page);
-            }
-        } 
-
-        
-        formdata.append("page", page);
-        axios.post('/Shop/Index', formdata)
-            .then(function (response) {
-                //console.log(response.data)
-                document.getElementById("productList").innerHTML = response.data;
-
-            })
-            .catch(function (error) {
-                if (error.response) {
-                    let errorObj = error.response.data;
-                    for (let errors in errorObj) {
-                        let error = errorObj[errors];
-                        console.log(error);
-                    }
-                }
-            });
-    })
+removeBtn.addEventListener("click", function () {
+    $("#searchList a").remove();
+    $("#input-search").val("");
+    removeBtn.classList.add("d-none");
 })
 
 //(function ($) {

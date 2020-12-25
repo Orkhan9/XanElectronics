@@ -92,6 +92,7 @@
 </div>
 <!-- common banner  end -->
 <!-- product tab start -->
+<input type="hidden" id="pageName" value="home" />
 <section class="product-tab theme3 bg-white pt-50 pb-80">
     <div class="container">
         <div class="product-tab-nav mb-35">
@@ -198,9 +199,8 @@
                                                             {
                                                                 <h6 class="product-price">$ @item.Price</h6>
                                                             }
-                                                            <button class="pro-btn" data-toggle="modal"
-                                                                    data-target="#add-to-cart">
-                                                                <i class="icon-basket"></i>
+                                                            <button class="pro-btn">
+                                                                <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                                                             </button>
                                                         </div>
                                                     </div>
@@ -284,9 +284,8 @@
                                                         {
                                                             <h6 class="product-price">$ @item.Price</h6>
                                                         }
-                                                        <button class="pro-btn" data-toggle="modal"
-                                                                data-target="#add-to-cart">
-                                                            <i class="icon-basket"></i>
+                                                        <button class="pro-btn">
+                                                            <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -369,9 +368,8 @@
                                                         {
                                                             <h6 class="product-price">$ @item.Price</h6>
                                                         }
-                                                        <button class="pro-btn" data-toggle="modal"
-                                                                data-target="#add-to-cart">
-                                                            <i class="icon-basket"></i>
+                                                        <button class="pro-btn">
+                                                            <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -468,9 +466,8 @@
                                                     {
                                                         <h6 class="product-price">$ @item.Price</h6>
                                                     }
-                                                    <button class="pro-btn" data-toggle="modal"
-                                                            data-target="#add-to-cart">
-                                                        <i class="icon-basket"></i>
+                                                    <button class="pro-btn">
+                                                        <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                                                     </button>
                                                 </div>
                                             </div>
@@ -629,9 +626,8 @@
                                                         {
                                                             <h6 class="product-price">$ @item.Price</h6>
                                                         }
-                                                        <button class="pro-btn" data-toggle="modal"
-                                                                data-target="#add-to-cart">
-                                                            <i class="icon-basket"></i>
+                                                        <button class="pro-btn">
+                                                            <i class="icon-basket addToBasket" data-id="@item.Id"></i>
                                                         </button>
                                                     </div>
                                                 </div>

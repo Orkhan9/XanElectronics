@@ -22,23 +22,50 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added productCrud">
+    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added pagination axios">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Dal/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Dal/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewComponents/HeaderViewComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewComponents/HeaderViewComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialPagination.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialPagination.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialPagination.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialPagination.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +90,11 @@
         <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" />
         <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" />
         <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/XanElectronics/Controllers/Sale.cshtml" />
+        <option value="$PROJECT_DIR$/XanElectronics/appsettings.json" />
+        <option value="$PROJECT_DIR$/XanElectronics/Startup.cs" />
+        <option value="$PROJECT_DIR$/XanElectronics/Controllers/SearchController.cs" />
+        <option value="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -72,10 +104,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.XanElectronics">
+    <configuration name="Publish XanElectronics to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="Portable" target_folder="$PROJECT_DIR$/../smarterasp" target_framework="netcoreapp3.1" uuid_high="4927368464043622641" uuid_low="-6179265098056277707" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish XanElectronics to IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS" temporary="true">
+      <riderPublish uuid_high="4927368464043622641" uuid_low="-6179265098056277707" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish XanElectronics to custom server" type="DotNetPublishAndUpload" factoryName="Publish to custom server" temporary="true">
+      <riderPublish runtime="Portable" server_id="6b63f40b-716d-4db8-9583-595aa9a46f38" target_framework="netcoreapp3.1" uuid_high="4927368464043622641" uuid_low="-6179265098056277707" />
+      <method v="2" />
+    </configuration>
     <configuration name="XanElectronics" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -106,6 +152,13 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Publish XanElectronics to folder" />
+        <item itemvalue="Publish to custom server.Publish XanElectronics to custom server" />
+        <item itemvalue="Publish to IIS.Publish XanElectronics to IIS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,6 +177,10 @@
       <workItem from="1607766846603" duration="109000" />
       <workItem from="1607776656416" duration="84000" />
       <workItem from="1608019427691" duration="481000" />
+      <workItem from="1608565110151" duration="1013000" />
+      <workItem from="1608568101173" duration="333000" />
+      <workItem from="1608733174899" duration="2933000" />
+      <workItem from="1608854359157" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="added subsribe">
       <created>1607678084964</created>
@@ -202,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608019530190</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added pagination axios">
+      <created>1608565155021</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608565155021</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added pagination axios">
+      <created>1608565162296</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608565162296</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,28 +299,41 @@
     <MESSAGE value="added categoryCrud" />
     <MESSAGE value="added shoppagination" />
     <MESSAGE value="added productCrud" />
-    <option name="LAST_COMMIT_MESSAGE" value="added productCrud" />
+    <MESSAGE value="added pagination axios" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pagination axios" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608019911470">
+    <state x="361" y="71" key="#Deployment" timestamp="1608734621414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608019911470">
+    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1608734621414" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608735748276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608019911470">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608735748276" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608736292151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608019911470">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608736292151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608019911470" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608019536743">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608736292151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608019536743" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608736292151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
+    <state width="189" height="455" key="HiddenNamespacesPopup" timestamp="1608735789309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="455" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1608735789309" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608565237218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608565237218" />
   </component>
 </project>

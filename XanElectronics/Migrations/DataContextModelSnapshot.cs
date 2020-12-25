@@ -390,6 +390,69 @@ namespace XanElectronics.Migrations
                     b.ToTable("ProductImages");
                 });
 
+            modelBuilder.Entity("XanElectronics.Models.Sale", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Sales");
+                });
+
+            modelBuilder.Entity("XanElectronics.Models.SaleProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SaleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SaleId");
+
+                    b.ToTable("SaleProducts");
+                });
+
             modelBuilder.Entity("XanElectronics.Models.Service", b =>
                 {
                     b.Property<int>("Id")
@@ -499,6 +562,39 @@ namespace XanElectronics.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("XanElectronics.Models.Sale", b =>
+                {
+                    b.HasOne("XanElectronics.Models.AppUser", "AppUser")
+                        .WithMany("Sales")
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("XanElectronics.Models.SaleProduct", b =>
+                {
+                    b.HasOne("XanElectronics.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("XanElectronics.Models.Sale", "Sale")
+                        .WithMany("SaleProducts")
+                        .HasForeignKey("SaleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Sale");
+                });
+
+            modelBuilder.Entity("XanElectronics.Models.AppUser", b =>
+                {
+                    b.Navigation("Sales");
+                });
+
             modelBuilder.Entity("XanElectronics.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -507,6 +603,11 @@ namespace XanElectronics.Migrations
             modelBuilder.Entity("XanElectronics.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
+                });
+
+            modelBuilder.Entity("XanElectronics.Models.Sale", b =>
+                {
+                    b.Navigation("SaleProducts");
                 });
 #pragma warning restore 612, 618
         }
