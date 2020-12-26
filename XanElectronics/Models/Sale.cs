@@ -20,6 +20,7 @@ namespace XanElectronics.Models
         [Required]
         public string Phone { get; set; }
         public DateTime Date { get; set; }
+        public bool IsFinished { get; set; }
         public decimal Total { get; set; }
         public string AppUserId { get; set; }
         public virtual AppUser AppUser { get; set; }

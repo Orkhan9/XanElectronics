@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +13,6 @@ namespace XanElectronics.Areas.Admin.Controllers
     public class SaleController : Controller
     {
         private readonly DataContext _context;
-        private readonly IWebHostEnvironment _env;
 
         public SaleController(DataContext context)
         {
@@ -22,8 +22,24 @@ namespace XanElectronics.Areas.Admin.Controllers
         // GET
         public IActionResult Index()
         {
-            return View(_context.Sales.Include(s=>s.AppUser).ToList());
+            return View(_context.Sales.Where(x=>x.IsFinished==false).Include(s=>s.AppUser).ToList());
             
+        }
+        
+        public IActionResult FinishedSales()
+        {
+            return View(_context.Sales.Where(x=>x.IsFinished==true).Include(s=>s.AppUser).ToList());
+            
+        }
+        
+        public async Task<IActionResult> Deactive(int? id)
+        {
+            if (id == null) return BadRequest();
+            var sale = _context.Sales.FirstOrDefault(x => x.Id == id);
+            if (sale == null) return BadRequest();
+            sale.IsFinished = true;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Detail(int? id)

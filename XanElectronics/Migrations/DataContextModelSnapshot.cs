@@ -217,15 +217,15 @@ namespace XanElectronics.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "ceb8d654-cecc-45f4-9f0d-a2fc5c3488d7",
+                            Id = "da7f7354-df6b-43e5-86f0-6f39c59f290d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6db1125f-05f0-4ad8-bc4b-0e068f5c3d77",
+                            ConcurrencyStamp = "5cf198ab-062d-406a-9062-07cd57d766fe",
                             EmailConfirmed = false,
                             Fullname = "Ulvi Mecidov",
                             IsActivated = true,
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8f85ce20-9817-4a97-9226-e996cb1314fd",
+                            SecurityStamp = "df2b55d2-5fa2-4a02-8d3f-8cbaa2c76fe0",
                             TwoFactorEnabled = false
                         });
                 });
@@ -680,6 +680,9 @@ namespace XanElectronics.Migrations
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<string>("Phone")
                         .IsRequired()

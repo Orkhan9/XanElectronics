@@ -135,13 +135,13 @@
                                                     @if (item.DisCountRate > 0)
                                                     {
                                                         <h6 class="product-price">
-                                                            <del class="del">$ @item.Price</del>
-                                                            <span class="onsale">$ @item.ResultPrice</span>
+                                                            <del class="del">$ @item.Price.ToString("N2")</del>
+                                                            <span class="onsale">$ @item.ResultPrice.ToString("N2")</span>
                                                         </h6>
                                                     }
                                                     else
                                                     {
-                                                        <h6 class="product-price">$ @item.Price</h6>
+                                                        <h6 class="product-price">$ @item.Price.ToString("N2")</h6>
                                                     }
                                                     <button class="pro-btn">
                                                         <i class="icon-basket addToBasket" data-id="@item.Id"></i>

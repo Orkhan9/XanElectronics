@@ -286,7 +286,8 @@ namespace XanElectronics.Controllers
                     FullName=checkOutInfo.FullName,
                     Phone=checkOutInfo.Phone,
                     Email=checkOutInfo.Email,
-                    Address=checkOutInfo.Address
+                    Address=checkOutInfo.Address,
+                    IsFinished = false
                 };
                 List<BasketVM> basketProducts = JsonConvert.DeserializeObject<List<BasketVM>>(Request.Cookies["xbasket"]);
 

@@ -35,6 +35,7 @@
               </e>
               <e p="Sale" t="Include">
                 <e p="Detail.cshtml" t="Include" />
+                <e p="FinishedSales.cshtml" t="Include" />
                 <e p="Index.cshtml" t="Include" />
               </e>
               <e p="Shared" t="Include">
@@ -75,6 +76,8 @@
         <e p="Migrations" t="Include">
           <e p="20201226124148_initial.Designer.cs" t="Include" />
           <e p="20201226124148_initial.cs" t="Include" />
+          <e p="20201226210310_addedColumnIsfinishedSaleTable.Designer.cs" t="Include" />
+          <e p="20201226210310_addedColumnIsfinishedSaleTable.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

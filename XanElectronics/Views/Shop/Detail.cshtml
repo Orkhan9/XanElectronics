@@ -86,13 +86,13 @@
                             <h6 class="product-price mr-20">
                                 @if (Model.DisCountRate > 0)
                                 {
-                                    <del class="del">$ @Model.Price</del>
-                                    <span class="onsale">$ @Model.ResultPrice</span>
+                                    <del class="del">$ @Model.Price.ToString("C2")</del>
+                                    <span class="onsale">$ @Model.ResultPrice.ToString("C2")</span>
                                     <span class="badge position-static bg-dark rounded-0">Save @Model.DisCountRate %</span>
                                 }
                                 else
                                 {
-                                    <span class="onsale">$ @Model.ResultPrice</span>
+                                    <span class="onsale">$ @Model.ResultPrice.ToString("C2")</span>
                                 }
                             </h6>
                             
