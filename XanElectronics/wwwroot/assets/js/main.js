@@ -1,29 +1,39 @@
 "use strict";
 //search
 let removeBtn = document.querySelector(".fa-times");
-
-$(document).on('keyup', '#input-search', function () {
-    let search = $(this).val().trim();
-    removeBtn.classList.remove("d-none");
-    if (search == "") {
-        removeBtn.classList.add("d-none");
-    }
-    $("#searchList a").remove();
-    if (search.length > 0) {
-        $.ajax({
-            url: "/Search/Search?search=" + search,
-            type: "Get",
-            success: function (res) {
-                $("#searchList").append(res);
-            }
+let inputSearch=document.getElementById("input-search");
+inputSearch.addEventListener("keyup",function (){
+  let search=inputSearch.value.trim();
+  removeBtn.classList.remove("d-none");
+  if (search == "") {
+    removeBtn.classList.add("d-none");
+  }
+  let searchList=document.getElementById("searchList");
+  searchList.innerHTML="";
+  let formdata=new FormData();
+  formdata.append("search",search);
+  if(search.length>0){
+    axios.post('/Search/Search', formdata)
+        .then(function (response) {
+          console.log(response.data)
+          searchList.innerHTML=response.data;
         })
-    }
+        .catch(function (error) {
+          if (error.response) {
+            let errorObj = error.response.data;
+            for (let errors in errorObj) {
+              let error = errorObj[errors];
+              console.log(error);
+            }
+          }
+        });
+  }
 })
 
 removeBtn.addEventListener("click", function () {
-    $("#searchList a").remove();
-    $("#input-search").val("");
-    removeBtn.classList.add("d-none");
+  searchList.innerHTML="";
+  inputSearch.value="";
+  removeBtn.classList.add("d-none");
 })
 
 //(function ($) {

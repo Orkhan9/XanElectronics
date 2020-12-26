@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using XanElectronics.Dal;
 using XanElectronics.Models;
 using XanElectronics.ViewModels;
@@ -51,9 +52,14 @@ namespace XanElectronics.ViewComponents
                 ViewBag.BasketCount = 0;
                 ViewBag.TotalPrice = 0;
             }
-
-            Bio model = _context.Bios.FirstOrDefault();
-            return View(await Task.FromResult(model));
+            
+            BioVM bioVm = new BioVM
+            {
+                Bio = _context.Bios.FirstOrDefault(),
+                Categories = _context.Categories.Include(x=>x.Products).ToList()
+            };
+    
+            return View(await Task.FromResult(bioVm));
         }
     }
 }

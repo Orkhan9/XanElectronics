@@ -103,6 +103,12 @@ namespace XanElectronics.Areas.Admin.Controllers
                 Star=productCreateVM.Star,
                 DisCountRate = productCreateVM.DisCountRate,
                 ResultPrice=resultPrice,
+                LongDescription = productCreateVM.LongDescription,
+                ShortDescription = productCreateVM.ShortDescription,
+                Color = productCreateVM.Color,
+                Code = productCreateVM.Code,
+                Size = productCreateVM.Size,
+                IsOriginal = productCreateVM.IsOriginal,
                 CategoryId=productCreateVM.CategoryId,
                 ProductImages=productImages
             };

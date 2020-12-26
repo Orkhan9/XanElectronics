@@ -22,50 +22,364 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added pagination axios">
+    <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added linux">
+      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/SaleController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Sale/Detail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Sale/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/BioVM.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources/10a1bb7e-59f0-4ce8-8034-8e3c158a158a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources/10a1bb7e-59f0-4ce8-8034-8e3c158a158a/storage_v2/_src_/database/DB_A6C9B7_lyassine88.Cr3d0A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources/10a1bb7e-59f0-4ce8-8034-8e3c158a158a/storage_v2/_src_/database/DB_A6C9B7_lyassine88.Cr3d0A/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources/10a1bb7e-59f0-4ce8-8034-8e3c158a158a/storage_v2/_src_/database/DB_A6C9B7_lyassine88.Cr3d0A/schema/dbo.sYMBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/dataSources/10a1bb7e-59f0-4ce8-8034-8e3c158a158a/storage_v2/_src_/database/DB_A6C9B7_lyassine88.Cr3d0A/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics.sln" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/.vs/ProjectSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/.vs/XanElectronics/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/.vs/XanElectronics/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/DashboardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/DashboardController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Update.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Dashboard/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Dashboard/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/DeletedList.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/DeletedList.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Detail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Update.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_adminLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_adminLayout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_partialValidation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_partialValidation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/AccountController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/ContactController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/ContactController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/SearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/SearchController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Controllers/ShopController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Dal/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Dal/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Dto/ProductReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Dto/ProductReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Dto/ProductUpdateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Dto/ProductUpdateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Extentions/Extentions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Extentions/Extentions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Helpers/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Helpers/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Helpers/IdentityErrorsDescriptionAz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Helpers/IdentityErrorsDescriptionAz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Interfaces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Interfaces.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Mapper/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Mapper/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210122636_AddedTables.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210122636_AddedTables.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210193735_addedBioTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210193735_addedBioTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210202008_changedBioTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210202008_changedBioTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210210049_addedSubscriptionTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201210210049_addedSubscriptionTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212064956_changedProductTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212064956_changedProductTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212065547_changedCategoryTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212065547_changedCategoryTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212070253_addedDisCountColumnProductTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212070253_addedDisCountColumnProductTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212085026_changedcolumnDiscountProductTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212085026_changedcolumnDiscountProductTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212160338_addedResultPriceColumnProductTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201212160338_addedResultPriceColumnProductTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213085103_addBrandTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213085103_addBrandTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213090145_addedServiceTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213090145_addedServiceTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213110323_addedProductCountColumnCategoryTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201213110323_addedProductCountColumnCategoryTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201214191713_addedIsDeletedColumnProductandCategoryTables.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201214191713_addedIsDeletedColumnProductandCategoryTables.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201215095657_addedCountColumnProductTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201215095657_addedCountColumnProductTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201222200559_addedSaleandSaleProductTables.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201222200559_addedSaleandSaleProductTables.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201222204309_addedColumnSaleTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20201222204309_addedColumnSaleTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/DataContextModelSnapshot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Models/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Bio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Bio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Brand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Message.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/ProductImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/ProductImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Sale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Sale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/SaleProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/SaleProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Models/Subscription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Models/Subscription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ScaffoldingReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ScaffoldingReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Services/EmailService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Services/EmailService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewComponents/FooterViewComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewComponents/FooterViewComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/ViewComponents/HeaderViewComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewComponents/HeaderViewComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/BasketVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/BasketVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/CategoryCreateVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/CategoryCreateVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/CategoryUpdateVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/CategoryUpdateVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/ContactVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/ContactVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/HomeVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/HomeVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/LoginVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/LoginVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/MessageCreateVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/MessageCreateVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/ProductCreateVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/ProductCreateVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/RegisterVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/RegisterVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/ViewModels/SubscriptionCreateVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/ViewModels/SubscriptionCreateVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Basket/BasketSale.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Basket/BasketSale.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Contact/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Contact/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Footer/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Footer/Default.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialPagination.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialPagination.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialProduct.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialProduct.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialSubscribe.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_partialSubscribe.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shop/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shop/Detail.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shop/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Update.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Category/Update.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Dashboard/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Dashboard/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/DeletedList.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/DeletedList.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Detail.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Detail.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Update.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Product/Update.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_adminLayout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_adminLayout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_partialValidation.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Shared/_partialValidation.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Account/Register.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/BasketSale.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/BasketSale.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Contact/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Contact/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Footer/Default.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Footer/Default.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialPagination.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialPagination.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialProduct.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialProduct.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialSubscribe.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_partialSubscribe.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Detail.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Detail.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.genruntimeconfig.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/XanElectronics.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/XanElectronics.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/XanElectronics.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Release/netcoreapp3.1/XanElectronics.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/XanElectronics.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/vendor/vendor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/vendor/vendor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/04fae0fd-fb5f-4450-8aed-566c9a682b8a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/0ccaf5c8-bdd9-4053-8248-779ddeacf57e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/0e5f4723-58b8-46ba-add0-a278cccdf0f17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/4c65a7b6-6999-44ce-a40e-db699f962c1c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/5806da68-5e8a-421b-8fe7-9b04393754ee5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/5f06d30e-be7c-4cba-9ac6-db8e3afa87734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/7d942ff1-8452-43a8-b391-7fedcf54c3d69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/ac4b7764-4a0b-4f98-9868-99b6a99bd2c97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/b69f8232-ca62-47f9-9f7a-d96442044af38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/bbeadb0a-4ee3-4ea7-adae-c38df5e06ab97 - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/category/d5cfe373-857d-48fa-adc6-3b08d1587c294.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/13e21aa9-abbd-4e1e-9725-a38ebe0e7fa104_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/152f3e4b-90d2-4a2e-ae09-b9812960f2e901_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/30448294-92ff-4fe4-adae-cd5d368704828.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/348fb635-f97e-4e41-932b-bb24659127d96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/3e1dfba5-6656-49b4-ac36-8275f1fd74d75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/4aed39d8-e7ee-47d5-8fe3-f768cfafbb4302_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/5299897b-e2da-47ea-bd3a-a458f2221bf08.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/5494228b-3ed0-49a0-a2e8-e07c8d97b21f05_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/54a8fd04-d8ea-453b-84c9-861a1d65f9aa4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/5d037f7c-30fb-400c-9bfb-633d9ef9d96f8 - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/659576af-150e-4945-af0c-b386cac39c977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/6976cdc0-9dfc-46fb-affa-881b0712aed13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/82083746-dfeb-4019-937a-c0ab7afa11827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/a8087b10-a202-406d-828f-22980b37d7fc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/b23f3496-0aa2-4b7f-9999-a42871157aba7 - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/b48d14e5-f2c9-457e-9e97-380f136de4d103_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/bec529a5-f89f-4971-a635-e115d3f768c87 - Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/img/product/d9ce039f-77c7-4c03-a479-93181e6003b606_gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/plugins/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/plugins/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/plugins/plugins.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/plugins/plugins.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/subscribe-mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/subscribe-mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/vendor/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/vendor/vendor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/php/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/php/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_background-&amp;-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_background-&amp;-colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_placeholder.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_spacer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/base/_spacer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/all-ctry-menu/_all-ctry-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/all-ctry-menu/_all-ctry-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/badge/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/badge/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/banner/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/banner/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/bread-crumbs/_bread-crumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/bread-crumbs/_bread-crumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/buttons/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/buttons/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/cart-links/_cart-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/cart-links/_cart-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/check-box/_check-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/check-box/_check-box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/counter/_counter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/counter/_counter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/forms/contact-form/_contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/forms/contact-form/_contact-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/forms/search-form/_search-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/forms/search-form/_search-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/media/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/media/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/media/_static-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/media/_static-media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/modal/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/modal/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_main-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_main-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_mega-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_mega-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_sub-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_sub-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_top-nav-style1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_top-nav-style1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_verticle-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/nav/_verticle-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas-cart/_offcanvas-cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas-cart/_offcanvas-cart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas-menu-toggler/_offcanvas-menu-toggler.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas-menu-toggler/_offcanvas-menu-toggler.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas/_offcanvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/offcanvas/_offcanvas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/pagination/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/pagination/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/product-tags/_product-tags.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/product-tags/_product-tags.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-tabs-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-tabs-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/products/_product-tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/scroll-up/_scroll-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/scroll-up/_scroll-up.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_blog-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_blog-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_brand-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_brand-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_featured-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_featured-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_main-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_main-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_popular-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_popular-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_product-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_product-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_single-product-sync-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_single-product-sync-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_single-product-sync.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_single-product-sync.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_slick_arrow_dots-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/slider/_slick_arrow_dots-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/sticky-header/_sticky-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/sticky-header/_sticky-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/title-section/_title-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/components/title-section/_title-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/footer/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/footer/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/main-content/_main-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/layout/main-content/_main-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_check-out.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_check-out.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_compare.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_compare.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_contact-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_single-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_single-product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_whishlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/_whishlist.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/blogPages/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/blogPages/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/shopPages/_shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/sass/pages/shopPages/_shop.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +389,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/XanElectronics/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/subscribe-mail.js" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Pages/Category/Index.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_adminLayout.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Index.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Update.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_partialValidation.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Create.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/CategoryController.cs" />
-        <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" />
-        <option value="$PROJECT_DIR$/XanElectronics/Controllers/Sale.cshtml" />
-        <option value="$PROJECT_DIR$/XanElectronics/appsettings.json" />
-        <option value="$PROJECT_DIR$/XanElectronics/Startup.cs" />
-        <option value="$PROJECT_DIR$/XanElectronics/Controllers/SearchController.cs" />
-        <option value="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/XanElectronics/Models/Category.cs" />
+      <option value="$PROJECT_DIR$/XanElectronics/Dal/DataContext.cs" />
+      <option value="$PROJECT_DIR$/XanElectronics/Startup.cs" />
+      <option value="$PROJECT_DIR$/XanElectronics/appsettings.json" />
+      <option value="$PROJECT_DIR$/XanElectronics/Controllers/AccountController.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1lTb028mqyz8fXNMGo0deJfOFuf" />
   <component name="ProjectViewState">
@@ -104,10 +412,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.XanElectronics">
     <configuration name="Publish XanElectronics to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
@@ -180,7 +490,22 @@
       <workItem from="1608565110151" duration="1013000" />
       <workItem from="1608568101173" duration="333000" />
       <workItem from="1608733174899" duration="2933000" />
-      <workItem from="1608854359157" duration="423000" />
+      <workItem from="1608854359157" duration="473000" />
+      <workItem from="1608860441966" duration="129000" />
+      <workItem from="1608861621912" duration="2280000" />
+      <workItem from="1608887161368" duration="2000" />
+      <workItem from="1608887258834" duration="4512000" />
+      <workItem from="1608892125125" duration="10306000" />
+      <workItem from="1608915505559" duration="1469000" />
+      <workItem from="1608922511703" duration="36000" />
+      <workItem from="1608961062844" duration="80000" />
+      <workItem from="1608987863093" duration="1706000" />
+      <workItem from="1608977260010" duration="6284000" />
+      <workItem from="1608984606379" duration="62000" />
+      <workItem from="1608984700011" duration="2240000" />
+      <workItem from="1608987011791" duration="1692000" />
+      <workItem from="1608995604562" duration="5000" />
+      <workItem from="1608995707906" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="added subsribe">
       <created>1607678084964</created>
@@ -273,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608565162296</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added search">
+      <created>1608854798101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608854798101</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added search">
+      <created>1608854805110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608854805110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,40 +639,22 @@
     <MESSAGE value="added shoppagination" />
     <MESSAGE value="added productCrud" />
     <MESSAGE value="added pagination axios" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pagination axios" />
+    <MESSAGE value="added search" />
+    <MESSAGE value="added linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="added linux" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Deployment" timestamp="1608734621414">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1608734621414" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608735748276">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608735748276" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608736292151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608736292151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608736292151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608736292151">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608736292151" />
-    <state width="189" height="455" key="HiddenNamespacesPopup" timestamp="1608735789309">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="189" height="455" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1608735789309" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608565237218">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608565237218" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Sale/Detail.cshtml</url>
+          <line>7</line>
+          <properties documentPath="C:\Users\User\Desktop\my projects\XanElectronics\XanElectronics\Areas\Admin\Views\Sale\Detail.cshtml" initialLine="42" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

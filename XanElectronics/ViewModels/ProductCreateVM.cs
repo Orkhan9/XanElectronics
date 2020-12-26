@@ -22,6 +22,14 @@ namespace XanElectronics.ViewModels
         public bool IsNew { get; set; }
         public bool IsFeatured { get; set; }
         [Required]
+        public string LongDescription { get; set; }
+        [Required]
+        public string ShortDescription { get; set; }
+        public bool IsOriginal { get; set; }
+        public string Color { get; set; }
+        public string Size { get; set; }
+        public string Code { get; set; }
+        [Required]
         public int CategoryId { get; set; }
         [NotMapped,Required]
         public IFormFile[] Images { get; set; }

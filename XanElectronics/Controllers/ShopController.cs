@@ -43,7 +43,8 @@ namespace XanElectronics.Controllers
         public IActionResult Detail(int? id)
         {
             if (id == null) return NotFound();
-            var product = _context.Products.Include(x => x.ProductImages).FirstOrDefault(x => x.Id == id);
+            var product = _context.Products.Include(x => x.ProductImages)
+                .FirstOrDefault(x => x.Id == id);
             if (product == null) return BadRequest();
             return View(product);
         }

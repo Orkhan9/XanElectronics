@@ -16,6 +16,12 @@ namespace XanElectronics.Dto
         public int Star { get; set; }
         public bool IsNew { get; set; }
         public bool IsFeatured { get; set; }
+        public string LongDescription { get; set; }
+        public string ShortDescription { get; set; }
+        public bool IsOriginal { get; set; }
+        public string Color { get; set; }
+        public string Size { get; set; }
+        public string Code { get; set; }
         public int CategoryId { get; set; }
         public IFormFile[] Images { get; set; }
 

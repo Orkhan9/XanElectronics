@@ -45,7 +45,7 @@ namespace XanElectronics
             }).AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders().AddErrorDescriber<IdentityErrorsDescriptionAz>();
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(_config["ConnectionString:Default"]);
+                options.UseMySql(_config.GetConnectionString("Default"));
             });
             services.AddControllersWithViews();
             services.AddAutoMapper(typeof(MappingProfile));

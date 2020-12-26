@@ -19,7 +19,7 @@ namespace XanElectronics.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            return Ok();
         }
         
         public IActionResult Search(string search)
@@ -31,7 +31,7 @@ namespace XanElectronics.Controllers
                 .Where(t => t.Name.ToLower().Contains(search.ToLower())).Take(5);
                 return PartialView("_partialProduct", list);
             }
-            return View();   
+            return Ok();   
         }
     }
 }

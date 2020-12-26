@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@SQL5101.site4now.net" uuid="10a1bb7e-59f0-4ce8-8034-8e3c158a158a">
-      <database-info product="Microsoft SQL Server" version="15.00.2070" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="15.0.2070" exact-driver-version="8.2">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source name="@localhost" uuid="0972bceb-fe54-4d3c-a6dd-75e26328d721">
+      <database-info product="MySQL" version="5.5.5-10.5.8-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MARIADB" exact-version="10.5.8" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
       </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>DB_A6C9B7_lyassine88_admin</user-name>
+      <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node negative="1">
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
-            </node>
-            <node kind="database" qname="DB_A6C9B7_lyassine88" />
-          </node>
+          <node kind="schema" qname="XanElectronics" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

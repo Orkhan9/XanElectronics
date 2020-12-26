@@ -116,24 +116,24 @@ namespace XanElectronics.Controllers
         }
 
 
-        public async Task CreateRole()
-        {
-            if (!await _roleManager.RoleExistsAsync("Admin"))
-            {
-                await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
-
-            }
-            if (!await _roleManager.RoleExistsAsync("Member"))
-            {
-                await _roleManager.CreateAsync(new IdentityRole { Name = "Member" });
-
-            }
-            if (!await _roleManager.RoleExistsAsync("Blogger"))
-            {
-                await _roleManager.CreateAsync(new IdentityRole { Name = "Blogger" });
-
-            }
-        }
+        // public async Task CreateRole()
+        // {
+        //     if (!await _roleManager.RoleExistsAsync("Admin"))
+        //     {
+        //         await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
+        //
+        //     }
+        //     if (!await _roleManager.RoleExistsAsync("Member"))
+        //     {
+        //         await _roleManager.CreateAsync(new IdentityRole { Name = "Member" });
+        //
+        //     }
+        //     if (!await _roleManager.RoleExistsAsync("Blogger"))
+        //     {
+        //         await _roleManager.CreateAsync(new IdentityRole { Name = "Blogger" });
+        //
+        //     }
+        // }
 
     }
 }

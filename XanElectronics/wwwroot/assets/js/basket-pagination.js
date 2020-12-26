@@ -5,7 +5,7 @@
         
 function AddToBasket(elements) {
     let allAddSpan;
-    if (elements == undefined) {
+    if (elements === undefined) {
         allAddSpan = document.querySelectorAll(".addToBasket");
     } else {
         allAddSpan = elements;
@@ -17,7 +17,7 @@ function AddToBasket(elements) {
             let id = e.target.getAttribute("data-id");
 
             let formdata = new FormData();
-            if (document.getElementById("pageName").value == "detail") {
+            if (document.getElementById("pageName").value === "detail") {
                 let addProductCount = document.getElementById("addProductCount").value;
                 if (addProductCount > 1) {
                     formdata.append("addProductCount", addProductCount);
