@@ -56,7 +56,7 @@ namespace XanElectronics.ViewComponents
             BioVM bioVm = new BioVM
             {
                 Bio = _context.Bios.FirstOrDefault(),
-                Categories = _context.Categories.Include(x=>x.Products).ToList()
+                Categories = _context.Categories.Include(x=>x.Products).Take(8).ToList()
             };
     
             return View(await Task.FromResult(bioVm));

@@ -86,13 +86,13 @@
                             <h6 class="product-price mr-20">
                                 @if (Model.DisCountRate > 0)
                                 {
-                                    <del class="del">$ @Model.Price.ToString("C2")</del>
-                                    <span class="onsale">$ @Model.ResultPrice.ToString("C2")</span>
+                                    <del class="del"> @Model.Price.ToString("C2")</del>
+                                    <span class="onsale"> @Model.ResultPrice.ToString("C2")</span>
                                     <span class="badge position-static bg-dark rounded-0">Save @Model.DisCountRate %</span>
                                 }
                                 else
                                 {
-                                    <span class="onsale">$ @Model.ResultPrice.ToString("C2")</span>
+                                    <span class="onsale"> @Model.ResultPrice.ToString("C2")</span>
                                 }
                             </h6>
                             
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button class="btn theme-btn--dark3 btn--xl mt-5 mt-sm-0 rounded-5 addToBasket" data-id="@Model.Id">
+                                <button class="btn theme-btn--dark3 btn--xl mt-5 mt-sm-0 rounded-5 ml-3 addToBasket" data-id="@Model.Id">
                                     <span class="mr-2"><i class="ion-android-add"></i></span>
                                     Add to cart
                                 </button>
@@ -135,3 +135,39 @@
     </div>
 </section>
 <!-- product-single end -->
+@section Scripts{
+    <script >
+     $(".count").each(function () {
+        var count = $(this),
+            input = count.find('input[type="number"]'),
+            increament = count.find(".increment"),
+            decreament = count.find(".decrement"),
+            minValue = input.attr("min"),
+            maxValue = input.attr("max");
+        increament.on("click", function () {
+          var oldValue = parseFloat(input.val());
+    
+          if (oldValue >= maxValue) {
+            var newVal = oldValue;
+          } else {
+            var newVal = oldValue + 1;
+          }
+    
+          count.find("input").val(newVal);
+          count.find("input").trigger("change");
+        });
+        decreament.on("click", function () {
+          var oldValue = parseFloat(input.val());
+    
+          if (oldValue <= minValue) {
+            var newVal = oldValue;
+          } else {
+            var newVal = oldValue - 1;
+          }
+    
+          count.find("input").val(newVal);
+          count.find("input").trigger("change");
+        });
+      });
+    </script>
+}

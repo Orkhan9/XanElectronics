@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Product>
+﻿@model ShopVM
 @{
     ViewData["Title"] = "Index";
 }
@@ -74,7 +74,7 @@
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                          aria-labelledby="pills-home-tab">
                         <div class="row grid-view theme1" id="productList">
-                            @foreach (var item in Model)
+                            @foreach (var item in Model.Products)
                             {
                                 <div class="col-sm-6 col-lg-4 col-xl-3 mb-30">
                                     <div class="card product-card">
@@ -189,65 +189,21 @@
             </div>
             <div class="col-lg-3 mb-30 order-last">
                 <aside class="left-sidebar theme1">
-                    <!-- search-filter start -->
-                    <div class="search-filter">
-                        <div class="check-box-inner pt-0">
-                            <h4 class="title">Bags &amp; Shoes</h4>
-                        </div>
-
-                    </div>
-
-                    <ul id="offcanvas-menu2" class="blog-ctry-menu">
-                        <li>
-                            <a href="javascript:void(0)">Shoes</a>
-                            <ul class="category-sub-menu">
-                                <li><a href="#">Women Shoes</a></li>
-                                <li><a href="#">Men Shoes</a></li>
-                                <li><a href="#">Boots</a></li>
-                                <li><a href="#">Casual Shoes</a></li>
-                                <li><a href="#">Flip Flops</a></li>
-                            </ul>
-
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">Luggage &amp; Bags</a>
-                            <ul class="category-sub-menu">
-                                <li><a href="#">Stylish Backpacks</a></li>
-                                <li><a href="#">Shoulder Bags</a></li>
-                                <li><a href="#">Crossbody Bags</a></li>
-                                <li><a href="#">Briefcases</a></li>
-                                <li><a href="#">Luggage &amp; Travel</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">Accessories</a>
-                            <ul class="category-sub-menu">
-                                <li><a href="#">Cosmetic Bags &amp; Cases</a></li>
-                                <li><a href="#">Wallets &amp; Card Holders</a></li>
-                                <li><a href="#">Luggage Covers</a></li>
-                                <li><a href="#">Passport Covers</a></li>
-                                <li><a href="#">Bag Parts &amp; Accessories</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
                     <div class="search-filter">
                         <form action="#">
                             <div class="check-box-inner mt-10">
                                 <h4 class="title">Filter By</h4>
                                 <h4 class="sub-title pt-10">Categories</h4>
-                                <div class="filter-check-box">
-                                    <input type="checkbox" id="20820">
-                                    <label for="20820">Digital Cameras <span>(13)</span></label>
-                                </div>
-                                <div class="filter-check-box">
-                                    <input type="checkbox" id="20821">
-                                    <label for="20821">Camcorders <span>(13)</span></label>
-                                </div>
-                                <div class="filter-check-box">
-                                    <input type="checkbox" id="20822">
-                                    <label for="20822">Camera Drones<span>(13)</span></label>
-                                </div>
+                                <form method="get">
+                                    @foreach (var category in Model.Categories)
+                                    {
+                                        <div class="filter-check-box">
+                                            <input type="checkbox" id="20820" 
+                                                   data-id="@category.Id" onchange="this.form.submit()">
+                                            <label for="20820">@category.Name <span>(@category.ProductCount)</span></label>
+                                        </div>
+                                    }                              
+                                </form>
                             </div>
                             <!-- check-box-inner -->
                             <div class="check-box-inner mt-10">
@@ -260,37 +216,15 @@
                                     <div id="slider-range"></div>
                                 </div>
                             </div>
-                            <!-- check-box-inner -->
-                            <div class="check-box-inner mt-10">
-                                <h4 class="sub-title">color</h4>
-                                <div class="filter-check-box color-grey">
-                                    <input type="checkbox" id="20826">
-                                    <label for="20826">grey <span>(4)</span></label>
-                                </div>
-                                <div class="filter-check-box color-white">
-                                    <input type="checkbox" id="20827">
-                                    <label for="20827">white <span>(3)</span></label>
-                                </div>
-                                <div class="filter-check-box color-black">
-                                    <input type="checkbox" id="20828">
-                                    <label for="20828">black <span>(6)</span></label>
-                                </div>
-                                <div class="filter-check-box color-camel">
-                                    <input type="checkbox" id="20829">
-                                    <label for="20829">camel <span>(2)</span></label>
-                                </div>
-                            </div>
-                            <!-- check-box-inner -->
                             <div class="check-box-inner mt-10">
                                 <h4 class="sub-title">Brand</h4>
-                                <div class="filter-check-box">
-                                    <input type="checkbox" id="20824">
-                                    <label for="20824">Graphic Corner<span>(5)</span></label>
-                                </div>
-                                <div class="filter-check-box">
-                                    <input type="checkbox" id="20825">
-                                    <label for="20825">Studio Design<span>(8)</span></label>
-                                </div>
+                                @foreach (var brand in Model.Brands)
+                                {
+                                    <div class="filter-check-box">
+                                        <input type="checkbox" id="20824">
+                                        <label for="20824">@brand.Name</label>
+                                    </div>
+                                }
                             </div>
                         </form>
                     </div>

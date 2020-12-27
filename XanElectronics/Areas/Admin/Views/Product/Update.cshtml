@@ -12,15 +12,17 @@
                     <form class="forms-sample" method="post" enctype="multipart/form-data">
                                         
                         <div class="row">
-                                            
-                            <div class="col-5 mr-5">
-                                                
+                                    
+                            <div class="col-10">
                                 <div class="form-group">
                                     <label asp-for="Images"></label>
                                     <input asp-for="Images" class="form-control" accept="image/*">
                                     <span asp-validation-for="Images" class="text-danger"></span>
                                 </div>
-                    
+                                
+                            </div>
+                            <div class="col-5 mr-5">
+                                          
                                 <div class="form-group">
                                     <label>Ad</label>
                                     <input asp-for="Name" class="form-control" placeholder="Ad">
@@ -39,6 +41,12 @@
                                     <span asp-validation-for="DisCountRate" class="text-danger"></span>
                                 </div>
                     
+                                <div class="form-group">
+                                    <label>Say</label>
+                                    <input asp-for="Count" class="form-control" placeholder="Say">
+                                    <span asp-validation-for="Count" class="text-danger"></span>
+                                </div>
+                                
                                 <div class="form-group">
                                     <label>QisaMelumat</label>
                                     <textarea asp-for="ShortDescription" class="form-control" placeholder="QisaMelumat" rows="3"></textarea>
@@ -102,6 +110,15 @@
                                     <div class="form-group">
                                         <select name="CategoryId" asp-for="@Model.CategoryId"
                                                 asp-items="@ViewBag.Categories">
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group mt-3">
+                                    <div class="form-group">
+                                        <label class="mr-5">Brand</label>
+                                        <select name="BrandId" asp-for="@Model.BrandId"
+                                                asp-items="@ViewBag.Brands">
                                         </select>
                                     </div>
                                 </div>

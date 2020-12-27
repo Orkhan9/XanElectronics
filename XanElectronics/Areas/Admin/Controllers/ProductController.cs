@@ -34,13 +34,16 @@ namespace XanElectronics.Areas.Admin.Controllers
         // GET
         public IActionResult Index()
         {
-            return View(_context.Products.Where(x=>x.IsDeleted==false).
-                Include(x=>x.ProductImages).Include(x=>x.Category).ToList());
+            return View(_context.Products.Where(x=>x.IsDeleted==false)
+                .Include(x=>x.ProductImages)
+                .Include(x=>x.Brand)
+                .Include(x=>x.Category).ToList());
         }
 
 
         public IActionResult Create()
         {
+            ViewBag.Brands = new SelectList(_context.Brands.ToList(), "Id", "Name");
             ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
             return View();
         }
@@ -50,6 +53,7 @@ namespace XanElectronics.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductCreateVM productCreateVM)
         {
+            ViewBag.Brands = new SelectList(_context.Brands.ToList(), "Id", "Name");
             ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
 
             if (!ModelState.IsValid) return View();
@@ -109,7 +113,9 @@ namespace XanElectronics.Areas.Admin.Controllers
                 Code = productCreateVM.Code,
                 Size = productCreateVM.Size,
                 IsOriginal = productCreateVM.IsOriginal,
+                Count = productCreateVM.Count,
                 CategoryId=productCreateVM.CategoryId,
+                BrandId = productCreateVM.BrandId,
                 ProductImages=productImages
             };
             var category = _context.Categories.FirstOrDefault(x => x.Id == productCreateVM.CategoryId);
@@ -123,6 +129,7 @@ namespace XanElectronics.Areas.Admin.Controllers
 
         public IActionResult Update(int? id)
         {
+            ViewBag.Brands = new SelectList(_context.Brands.ToList(), "Id", "Name");
             ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
             if (id == null) return NotFound();
             var product = _context.Products.Include(x=>x.Category).Include(x=>x.ProductImages).FirstOrDefault(c => c.Id == id);
@@ -136,6 +143,7 @@ namespace XanElectronics.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int? id,ProductUpdateDto productUpdateDto)
         {
+            ViewBag.Brands = new SelectList(_context.Brands.ToList(), "Id", "Name");
             ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
             if (id == null) return NotFound();
             var product = _context.Products.Include(x => x.Category).Include(x => x.ProductImages).FirstOrDefault(c => c.Id == id);
@@ -204,7 +212,9 @@ namespace XanElectronics.Areas.Admin.Controllers
             product.Star = productUpdateDto.Star;
             product.DisCountRate = productUpdateDto.DisCountRate;
             product.ResultPrice = resultPrice;
+            product.Count = productUpdateDto.Count;
             product.CategoryId = productUpdateDto.CategoryId;
+            product.BrandId = productUpdateDto.BrandId;
             if (productUpdateDto.Images!=null)
             {
                 product.ProductImages = productImages;
@@ -219,7 +229,9 @@ namespace XanElectronics.Areas.Admin.Controllers
         public async Task<IActionResult> Detail(int? id)
         {
             if (id == null) return NotFound();
-            var product = await _context.Products.Include(p => p.Category).Include(c => c.ProductImages).FirstOrDefaultAsync(p => p.Id == id);
+            var product = await _context.Products.Include(p => p.Category)
+                .Include(c => c.ProductImages)
+                .Include(x=>x.Brand).FirstOrDefaultAsync(p => p.Id == id);
             return View(product);
         }
 

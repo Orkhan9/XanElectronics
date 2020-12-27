@@ -40,16 +40,13 @@
                         <label for="inputPassword" class="col-md-3 col-form-label">Password</label>
                         <div class="col-md-6">
                             <div class="input-group mb-2 mr-sm-2">
-                                <input asp-for="Password" class="form-control" id="inputPassword">
-                                <span asp-validation-for="Password" class="text-danger"></span>
-                                <div class="input-group-prepend">
-                                    <button type="button"
-                                            class="input-group-text  theme-btn--dark1 btn--md show-password">
+                                <input asp-for="Password" class="form-control" id="loginPassword">
+                                    <button type="button" style="position: absolute;right: 0px;top: 0px;z-index: 1000"
+                                            class="input-group-text  theme-btn--dark1 btn--md show-password" id="loginShowPasswordBtn">
                                         show
                                     </button>
-                                </div>
                             </div>
-
+                                <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
                     </div>
@@ -76,5 +73,20 @@
     </div>
 </div>
 
-
+@section Scripts
+{
+    <script >
+    var loginShowPasswordBtn = document.getElementById('loginShowPasswordBtn');
+    let loginPassword=document.getElementById("loginPassword");
+    
+    loginShowPasswordBtn.addEventListener("click",function (){
+        if(loginPassword.type!=='text'){
+            loginPassword.type = 'text';
+        }else{
+            loginPassword.type='password';
+        }
+    
+    })
+    </script>
+}
 

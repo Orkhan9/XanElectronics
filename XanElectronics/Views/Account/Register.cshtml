@@ -66,15 +66,16 @@
                         <div class="form-group row">
                             <label for="Password" class="col-md-3 col-form-label">Password</label>
                             <div class="col-md-6">
-                                <div class="input-group mb-2 mr-sm-2">
-                                    <input type="password" asp-for="Password" class="form-control" id="Password">
-                                    <span asp-validation-for="Password" class="text-danger"></span>
-                                    <div class="input-group-prepend">
-                                        <button type="button"
-                                                class="input-group-text theme-btn--dark1 btn--md show-password">
-                                            show
-                                        </button>
+                                <div class="input-group mb-2 mr-sm-2 d-flex">
+                                    <div class="col-12" style="position: relative">
+                                        <input type="password" asp-for="Password" class="form-control" id="registerPassword">
+                                            <button type="button" style="position: absolute;right: 0px;top: 0px" id="registerShowPasswordBtn"
+                                                    class="input-group-text theme-btn--dark1 btn--md show-password">
+                                                show
+                                            </button>
                                     </div>
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -90,4 +91,18 @@
         </div>
     </div>
 </div>
-
+@section Scripts{
+    <script >
+    var registerShowPasswordBtn = document.getElementById('registerShowPasswordBtn');
+    let registerPassword=document.getElementById("registerPassword");
+    
+    registerShowPasswordBtn.addEventListener("click",function (){
+      if(registerPassword.type!=='text'){
+        registerPassword.type = 'text';
+      }else{
+        registerPassword.type='password'
+      }
+      
+    });
+    </script>
+}

@@ -164,3 +164,7 @@
 /home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb
 /home/orkhan/my projects/XanElectronics/XanElectronics/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Sale/FinishedSales.cshtml.g.cs
+/home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Message/Index.cshtml.g.cs
+/home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Brand/Create.cshtml.g.cs
+/home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Brand/Index.cshtml.g.cs
+/home/orkhan/my projects/XanElectronics/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Brand/Update.cshtml.g.cs

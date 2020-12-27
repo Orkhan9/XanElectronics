@@ -48,11 +48,23 @@ namespace XanElectronics.Dal
                 }
             );
             
-            //appuser
-            modelBuilder.Entity<AppUser>().HasData(
-                new AppUser
+            //brand
+            modelBuilder.Entity<Brand>().HasData(
+                new Brand
                 {
-                    Fullname = "Ulvi Mecidov", IsActivated = true
+                    Id = 1, Name = "apple",ImageUrl = "1.jpg"
+                },
+                new Brand
+                {
+                    Id = 2, Name = "samsung",ImageUrl = "1.jpg"
+                },
+                new Brand
+                {
+                    Id = 3, Name = "xiaomi",ImageUrl = "1.jpg"
+                },
+                new Brand
+                {
+                    Id = 4, Name = "nokia",ImageUrl = "1.jpg"
                 }
             );
             
@@ -64,7 +76,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 2700,DisCountRate = 10,Count = 50,Star = 5,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "11",Size = "X",CategoryId = 1
+                    Code = "11",Size = "X",CategoryId = 1,BrandId = 1
                 },
                 
                 new Product
@@ -73,7 +85,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 1800,DisCountRate = 10,Count = 50,Star = 4,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "12",Size = "X",CategoryId = 1
+                    Code = "12",Size = "X",CategoryId = 1,BrandId = 2
                 },
                 new Product
                 {
@@ -81,7 +93,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 1000,DisCountRate = 10,Count = 50,Star = 4,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "13",Size = "X",CategoryId = 1
+                    Code = "13",Size = "X",CategoryId = 1,BrandId = 3
                 },
                 new Product
                 {
@@ -89,7 +101,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 200,DisCountRate = 0,Count = 50,Star = 2,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "14",Size = "X",CategoryId = 1
+                    Code = "14",Size = "X",CategoryId = 1,BrandId = 4
                 },
                 new Product
                 {
@@ -97,7 +109,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 2700,DisCountRate = 10,Count = 50,Star = 5,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "15",Size = "X",CategoryId = 2
+                    Code = "15",Size = "X",CategoryId = 2,BrandId = 1
                 },
                 
                 new Product
@@ -106,7 +118,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 1800,DisCountRate = 10,Count = 50,Star = 4,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "16",Size = "X",CategoryId = 2
+                    Code = "16",Size = "X",CategoryId = 2,BrandId = 2
                 },
                 new Product
                 {
@@ -114,7 +126,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 1000,DisCountRate = 10,Count = 50,Star = 4,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "17",Size = "X",CategoryId = 2
+                    Code = "17",Size = "X",CategoryId = 2,BrandId = 3
                 },
                 new Product
                 {
@@ -122,7 +134,7 @@ namespace XanElectronics.Dal
                     ResultPrice = 200,DisCountRate = 0,Count = 50,Star = 2,
                     IsDeleted = false,IsNew = true,IsFeatured = true,IsOriginal = true,
                     LongDescription = "...",ShortDescription = "..",Color = "ag",
-                    Code = "18",Size = "X",CategoryId = 2
+                    Code = "18",Size = "X",CategoryId = 2,BrandId = 4
                 }
             );
             

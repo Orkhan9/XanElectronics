@@ -17,14 +17,14 @@ namespace XanElectronics.Helpers
         //    };
         //}
 
-        //public override IdentityError PasswordRequiresLower()
-        //{
-        //    return new IdentityError
-        //    {
-        //        Code = nameof(PasswordRequiresLower),
-        //        Description = $"Kichik herf teleb olunur"
-        //    };
+        public override IdentityError PasswordRequiresLower()
+        {
+            return new IdentityError
+            {
+                Code = nameof(PasswordRequiresLower),
+                Description = $"Kichik herf teleb olunur"
+            };
 
-        //}
+        }
     }
 }

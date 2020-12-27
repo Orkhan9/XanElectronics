@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using XanElectronics.Dal;
 using XanElectronics.Dto;
 using XanElectronics.Models;
+using XanElectronics.ViewModels;
 
 namespace XanElectronics.Controllers
 {
@@ -30,7 +31,15 @@ namespace XanElectronics.Controllers
             {
                 var products = _context.Products.OrderByDescending(p => p.Id).Take(4).Include(c => c.Category)
                 .Include(c => c.ProductImages).ToList();
-                return View(products);
+                var categories = _context.Categories.Where(x=>x.IsDeleted==false).ToList();
+                var brands = _context.Brands.Where(x => x.IsDeleted == false).ToList();
+                ShopVM shopVM = new ShopVM
+                {
+                    Products = products,
+                    Categories = categories,
+                    Brands = brands
+                };
+                return View(shopVM);
             }
             else
             {

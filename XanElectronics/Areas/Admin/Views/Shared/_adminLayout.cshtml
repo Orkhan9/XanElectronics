@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Majestic Admin</title>
     <!-- plugins:css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" href="~/admin/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="~/admin/vendors/base/vendor.bundle.base.css">
     <!-- endinject -->
@@ -82,6 +83,12 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Brand" asp-action="Index">
+                            <span class="menu-title">Brend</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
                         <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">
                             <span class="menu-title">Mehsullar</span>
                         </a>
@@ -99,6 +106,11 @@
                         </a>
                     </li>
                     
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Message" asp-action="Index">
+                            <span class="menu-title">Mesajlar</span>
+                        </a>
+                    </li>
                     
                 </ul>
                 }

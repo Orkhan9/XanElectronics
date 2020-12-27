@@ -36,6 +36,7 @@ removeBtn.addEventListener("click", function () {
   removeBtn.classList.add("d-none");
 })
 
+
 //(function ($) {
 //  "use strict"; // search-toggle
 
@@ -160,6 +161,12 @@ removeBtn.addEventListener("click", function () {
   $(".menu-item-has-children-6").on("click", function () {
     $(".category-mega-menu-6").slideToggle("slow");
   });
+$(".menu-item-has-children-7").on("click", function () {
+  $(".category-mega-menu-7").slideToggle("slow");
+});
+$(".menu-item-has-children-8").on("click", function () {
+  $(".category-mega-menu-8").slideToggle("slow");
+});
   /*-----------------------------  
               Category more toggle  
         -------------------------------*/
@@ -789,38 +796,7 @@ removeBtn.addEventListener("click", function () {
            counter 
          -------------------------- */
 
-  $(".count").each(function () {
-    var count = $(this),
-        input = count.find('input[type="number"]'),
-        increament = count.find(".increment"),
-        decreament = count.find(".decrement"),
-        minValue = input.attr("min"),
-        maxValue = input.attr("max");
-    increament.on("click", function () {
-      var oldValue = parseFloat(input.val());
-
-      if (oldValue >= maxValue) {
-        var newVal = oldValue;
-      } else {
-        var newVal = oldValue + 1;
-      }
-
-      count.find("input").val(newVal);
-      count.find("input").trigger("change");
-    });
-    decreament.on("click", function () {
-      var oldValue = parseFloat(input.val());
-
-      if (oldValue <= minValue) {
-        var newVal = oldValue;
-      } else {
-        var newVal = oldValue - 1;
-      }
-
-      count.find("input").val(newVal);
-      count.find("input").trigger("change");
-    });
-  });
+ 
   /*---------------------
         Countdown
     --------------------- */

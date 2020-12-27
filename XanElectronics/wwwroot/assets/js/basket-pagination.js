@@ -281,3 +281,13 @@ paginationItems.forEach(item => {
             });
     })
 })
+
+
+//category checkbox
+let chechboxBtn=document.querySelectorAll(".checkBoxCategory");
+chechboxBtn.forEach(item=>{
+    item.addEventListener("click",function (e){
+        alert(e.target.getAttribute("data-id"));
+    })
+})
+

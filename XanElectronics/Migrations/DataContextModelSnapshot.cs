@@ -167,9 +167,6 @@ namespace XanElectronics.Migrations
                     b.Property<string>("Fullname")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<bool>("IsActivated")
-                        .HasColumnType("tinyint(1)");
-
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("tinyint(1)");
 
@@ -213,21 +210,6 @@ namespace XanElectronics.Migrations
                         .HasName("UserNameIndex");
 
                     b.ToTable("AspNetUsers");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "da7f7354-df6b-43e5-86f0-6f39c59f290d",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "5cf198ab-062d-406a-9062-07cd57d766fe",
-                            EmailConfirmed = false,
-                            Fullname = "Ulvi Mecidov",
-                            IsActivated = true,
-                            LockoutEnabled = false,
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "df2b55d2-5fa2-4a02-8d3f-8cbaa2c76fe0",
-                            TwoFactorEnabled = false
-                        });
                 });
 
             modelBuilder.Entity("XanElectronics.Models.Bio", b =>
@@ -292,9 +274,45 @@ namespace XanElectronics.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
                     b.HasKey("Id");
 
                     b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ImageUrl = "1.jpg",
+                            IsDeleted = false,
+                            Name = "apple"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ImageUrl = "1.jpg",
+                            IsDeleted = false,
+                            Name = "samsung"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ImageUrl = "1.jpg",
+                            IsDeleted = false,
+                            Name = "xiaomi"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ImageUrl = "1.jpg",
+                            IsDeleted = false,
+                            Name = "nokia"
+                        });
                 });
 
             modelBuilder.Entity("XanElectronics.Models.Category", b =>
@@ -372,6 +390,9 @@ namespace XanElectronics.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
@@ -422,6 +443,8 @@ namespace XanElectronics.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BrandId");
+
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
@@ -430,6 +453,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 1,
+                            BrandId = 1,
                             CategoryId = 1,
                             Code = "11",
                             Color = "ag",
@@ -450,6 +474,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 2,
+                            BrandId = 2,
                             CategoryId = 1,
                             Code = "12",
                             Color = "ag",
@@ -470,6 +495,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 3,
+                            BrandId = 3,
                             CategoryId = 1,
                             Code = "13",
                             Color = "ag",
@@ -490,6 +516,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 4,
+                            BrandId = 4,
                             CategoryId = 1,
                             Code = "14",
                             Color = "ag",
@@ -510,6 +537,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 5,
+                            BrandId = 1,
                             CategoryId = 2,
                             Code = "15",
                             Color = "ag",
@@ -530,6 +558,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 6,
+                            BrandId = 2,
                             CategoryId = 2,
                             Code = "16",
                             Color = "ag",
@@ -550,6 +579,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 7,
+                            BrandId = 3,
                             CategoryId = 2,
                             Code = "17",
                             Color = "ag",
@@ -570,6 +600,7 @@ namespace XanElectronics.Migrations
                         new
                         {
                             Id = 8,
+                            BrandId = 4,
                             CategoryId = 2,
                             Code = "18",
                             Color = "ag",
@@ -812,6 +843,12 @@ namespace XanElectronics.Migrations
 
             modelBuilder.Entity("XanElectronics.Models.Product", b =>
                 {
+                    b.HasOne("XanElectronics.Models.Brand", "Brand")
+                        .WithMany("Products")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("XanElectronics.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")

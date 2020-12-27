@@ -39,11 +39,6 @@ namespace XanElectronics.Controllers
                 ModelState.AddModelError("", "Email or password wrong!");
                 return View(login);
             }
-            if (!loginUser.IsActivated)
-            {
-                ModelState.AddModelError("", "Emaliniz block olunub");
-                return View(login);
-            }
 
 
             var signInResult = await _signInManager.PasswordSignInAsync(loginUser, login.Password, false, true);
@@ -107,7 +102,6 @@ namespace XanElectronics.Controllers
                 }
                 return View(register);
             }
-            newUser.IsActivated = true;
             await _userManager.AddToRoleAsync(newUser, "Member");
 
             await _signInManager.SignInAsync(newUser, true);
@@ -126,11 +120,6 @@ namespace XanElectronics.Controllers
         //     if (!await _roleManager.RoleExistsAsync("Member"))
         //     {
         //         await _roleManager.CreateAsync(new IdentityRole { Name = "Member" });
-        //
-        //     }
-        //     if (!await _roleManager.RoleExistsAsync("Blogger"))
-        //     {
-        //         await _roleManager.CreateAsync(new IdentityRole { Name = "Blogger" });
         //
         //     }
         // }
