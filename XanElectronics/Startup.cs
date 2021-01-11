@@ -42,10 +42,10 @@ namespace XanElectronics
                 identityOptions.Lockout.MaxFailedAccessAttempts = 3;
                 identityOptions.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
                 identityOptions.Lockout.AllowedForNewUsers = true;
-            }).AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders().AddErrorDescriber<IdentityErrorsDescriptionAz>();
+            }).AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseMySql(_config.GetConnectionString("Default"));
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddControllersWithViews();
             services.AddAutoMapper(typeof(MappingProfile));

@@ -41,7 +41,15 @@
                                     <i class="mdi mdi-magnify"></i>
                                 </span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Search now" aria-label="search" aria-describedby="search">
+                            
+                            <form class="form-inline position-relative">
+                                <input class="form-control theme3" id="input-searchAdmin"
+                                       placeholder="Enter your search key ..." style="width:400px">
+                                <button class="btn bg-white search-btn position-left" type="submit">
+                                    <i class="icon-magnifier"></i>
+                                </button>
+                            </form>
+                            <div class="row" id="searchListAdmin" style="position:absolute;top:50px;background-color:white;z-index:1000;width:400px"></div>
                         </div>
                     </li>
                 </ul>
@@ -87,31 +95,37 @@
                             <span class="menu-title">Brend</span>
                         </a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">
                             <span class="menu-title">Mehsullar</span>
                         </a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" asp-area="Admin" asp-controller="Sale" asp-action="Index">
                             <span class="menu-title">Sifarisler</span>
                         </a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" asp-area="Admin" asp-controller="Sale" asp-action="FinishedSales">
                             <span class="menu-title">Satis olanlar</span>
                         </a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" asp-area="Admin" asp-controller="Message" asp-action="Index">
                             <span class="menu-title">Mesajlar</span>
                         </a>
                     </li>
-                    
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Subscription" asp-action="Index">
+                            <span class="menu-title">Emailler</span>
+                        </a>
+                    </li>
+
                 </ul>
                 }
 
@@ -138,7 +152,9 @@
         <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->
-    <!-- plugins:js -->
+<!-- plugins:js -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
     <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>

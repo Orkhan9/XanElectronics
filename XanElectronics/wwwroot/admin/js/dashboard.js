@@ -1,3 +1,34 @@
+"use strict";
+//search
+let inputSearch=document.getElementById("input-searchAdmin");
+inputSearch.addEventListener("keyup",function (){
+  let search=inputSearch.value.trim();
+  let searchList=document.getElementById("searchListAdmin");
+  searchList.innerHTML="";
+  let formdata=new FormData();
+  formdata.append("search",search);
+  if(search.length>0){
+    axios.post('/Admin/Product/Search', formdata)
+        .then(function (response) {
+          console.log(response.data)
+          searchList.innerHTML=response.data;
+        })
+        .catch(function (error) {
+          if (error.response) {
+            let errorObj = error.response.data;
+            for (let errors in errorObj) {
+              let error = errorObj[errors];
+              console.log(error);
+            }
+          }
+        });
+  }
+})
+
+
+
+
+
 (function($) {
   'use strict';
   $(function() {

@@ -19,10 +19,9 @@
     </div>
     <div class="col-4">
         <p> @Model.Name</p>
+    </div>
 </div>
 
-
-</div>
 <div class="row mt-2">
     <div class="col-2">
         <h6>Yeni</h6>
@@ -31,6 +30,7 @@
         <p> @Model.IsNew</p>
     </div>
 </div>
+
 <div class="row mt-2">
     <div class="col-2">
         <h6>Secilmis</h6>
@@ -39,6 +39,16 @@
         <p> @Model.IsFeatured</p>
     </div>
 </div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Original</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.IsOriginal</p>
+    </div>
+</div>
+
 <div class="row mt-2">
     <div class="col-2">
         <h6>Kateqoriya</h6>
@@ -47,6 +57,7 @@
         <p> @Model.Category.Name</p>
     </div>
 </div>
+
 <div class="row mt-2">
     <div class="col-2">
         <h6>Brend</h6>
@@ -77,6 +88,60 @@
     </div>
     <div class="col-4">
         <p> @Model.ResultPrice.ToString("C2") Azn</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Ulduz</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Star</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Olcu</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Size</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Kod</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Code</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Say</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Count</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Reng</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.Color</p>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-2">
+        <h6>Melumat</h6>
+    </div>
+    <div class="col-4">
+        <p> @Model.LongDescription</p>
     </div>
 </div>
 

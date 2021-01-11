@@ -14,7 +14,7 @@ namespace XanElectronics.ViewModels
         public string UserName { get; set; }
         [Required, EmailAddress, DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        [StringLength(6, MinimumLength = 6,  ErrorMessage = "length err")]
+        [StringLength(10, MinimumLength = 5,  ErrorMessage = "minimum 5, maximum 10")]
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
     }

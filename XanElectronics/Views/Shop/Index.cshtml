@@ -46,13 +46,13 @@
                                            href="#pills-profile" role="tab" aria-controls="pills-profile"
                                            aria-selected="false"><i class="fa fa-list"></i></a>
                                     </li>
-                                    <li> <span class="total-products text-capitalize">There are 13 products.</span></li>
+                                    @*<li> <span class="total-products text-capitalize">There are 13 products.</span></li>*@
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-12 col-md-6 position-relative">
                             <div class="shop-grid-button d-flex align-items-center">
-                                <span class="sort-by">Sort by:</span>
+                                @*<span class="sort-by">Sort by:</span>
                                 <button class="btn-dropdown rounded d-flex justify-content-between" type="button"
                                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false">
@@ -64,7 +64,7 @@
                                     <a class="dropdown-item" href="#"> Name, Z to A</a>
                                     <a class="dropdown-item" href="#"> Price, low to high</a>
                                     <a class="dropdown-item" href="#"> Price, high to low</a>
-                                </div>
+                                </div>*@
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                                                 {
                                                     <span class="badge badge-danger top-right">New</span>
                                                 }
-                                                <a href="single-product.html">
+                                                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                     @foreach (var prImage in item.ProductImages.Take(1))
                                                     {
                                                         <img class="first-img" src="~/assets/img/product/@prImage.ImageUrl" alt="thumbnail">
@@ -189,7 +189,7 @@
             </div>
             <div class="col-lg-3 mb-30 order-last">
                 <aside class="left-sidebar theme1">
-                    <div class="search-filter">
+                    <!--<div class="search-filter">
                         <form action="#">
                             <div class="check-box-inner mt-10">
                                 <h4 class="title">Filter By</h4>
@@ -204,9 +204,9 @@
                                         </div>
                                     }                              
                                 </form>
-                            </div>
+                            </div>-->
                             <!-- check-box-inner -->
-                            <div class="check-box-inner mt-10">
+                            <!--<div class="check-box-inner mt-10">
                                 <h4 class="sub-title">Price</h4>
                                 <div class="price-filter mt-10">
                                     <div class="price-slider-amount">
@@ -227,7 +227,7 @@
                                 }
                             </div>
                         </form>
-                    </div>
+                    </div>-->
                     <!--second banner start-->
                     <div class="banner hover-animation position-relative overflow-hidden">
                         <a href="shop-grid-4-column.html" class="d-block">

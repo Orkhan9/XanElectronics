@@ -32,12 +32,39 @@ namespace XanElectronics.Areas.Admin.Controllers
             _mapper = mapper;
         }
         // GET
-        public IActionResult Index()
+        public IActionResult Index(int? page)
         {
-            return View(_context.Products.Where(x=>x.IsDeleted==false)
-                .Include(x=>x.ProductImages)
-                .Include(x=>x.Brand)
-                .Include(x=>x.Category).ToList());
+            ViewBag.PageCount = Math.Ceiling((decimal)_context.Products.Count()/5);
+            ViewBag.Page = page;
+            if (page == null)
+            {
+                return View(_context.Products.Where(x => x.IsDeleted == false)
+                    .Include(x => x.ProductImages)
+                    .Include(x => x.Brand)
+                    .Include(x => x.Category)
+                    .OrderByDescending(p => p.Id).Take(5).ToList());
+            }
+            else
+            {
+                return View(_context.Products.Where(x => x.IsDeleted == false)
+                    .Include(x => x.ProductImages)
+                    .Include(x => x.Brand)
+                    .Include(x => x.Category)
+                    .OrderByDescending(p => p.Id).Skip(((int)page-1)*5).Take(5).ToList());
+            }
+        }
+        
+
+        public IActionResult Search(string search)
+        {
+            IEnumerable<Product> list = new List<Product>();     
+            if (search != null)
+            {
+                list = _context.Products.Include(p => p.ProductImages)
+                    .Where(t => t.Name.ToLower().Contains(search.ToLower())).Take(5);
+                return PartialView("_partialAdminProduct", list);
+            }
+            return Ok();   
         }
 
 

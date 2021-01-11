@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_XanElectronics.-1403247257.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="XanElectronics" t="IncludeRecursive">
+    <e p="C:\Users\orkhan\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\orkhan\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_XanElectronics.-876627178.00" t="ExcludeRecursive" />
+    <e p="C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\xanelectronics" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="xanelectronics" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="Areas" t="Include">
           <e p="Admin" t="Include">
             <e p="Controllers" t="Include">
@@ -16,11 +17,14 @@
               <e p="MessageController.cs" t="Include" />
               <e p="ProductController.cs" t="Include" />
               <e p="SaleController.cs" t="Include" />
+              <e p="SubscriptionController.cs" t="Include" />
             </e>
             <e p="Data" t="Include" />
             <e p="Models" t="Include" />
             <e p="Pages" t="Include" />
             <e p="Views" t="Include">
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
               <e p="Brand" t="Include">
                 <e p="Create.cshtml" t="Include" />
                 <e p="Index.cshtml" t="Include" />
@@ -51,13 +55,16 @@
               </e>
               <e p="Shared" t="Include">
                 <e p="_adminLayout.cshtml" t="Include" />
+                <e p="_partialAdminProduct.cshtml" t="Include" />
                 <e p="_partialValidation.cshtml" t="Include" />
               </e>
-              <e p="_ViewImports.cshtml" t="Include" />
-              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Subscription" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
             </e>
           </e>
         </e>
+        <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="BasketController.cs" t="Include" />
@@ -85,16 +92,8 @@
           <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20201226124148_initial.Designer.cs" t="Include" />
-          <e p="20201226124148_initial.cs" t="Include" />
-          <e p="20201226210310_addedColumnIsfinishedSaleTable.Designer.cs" t="Include" />
-          <e p="20201226210310_addedColumnIsfinishedSaleTable.cs" t="Include" />
-          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.Designer.cs" t="Include" />
-          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.cs" t="Include" />
-          <e p="20201227145135_AddedBrandTable.Designer.cs" t="Include" />
-          <e p="20201227145135_AddedBrandTable.cs" t="Include" />
-          <e p="20201227154853_addedColumnIsDeletedBrandTable.Designer.cs" t="Include" />
-          <e p="20201227154853_addedColumnIsDeletedBrandTable.cs" t="Include" />
+          <e p="20210110164001_addedDatabase.cs" t="Include" />
+          <e p="20210110164001_addedDatabase.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -109,6 +108,14 @@
           <e p="SaleProduct.cs" t="Include" />
           <e p="Service.cs" t="Include" />
           <e p="Subscription.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="XanElectronics.AssemblyInfo.cs" t="Include" />
+              <e p="XanElectronics.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -140,6 +147,8 @@
           <e p="SubscriptionCreateVM.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
           <e p="Account" t="Include">
             <e p="Login.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
@@ -155,6 +164,10 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_partialPagination.cshtml" t="Include" />
+            <e p="_partialProduct.cshtml" t="Include" />
+            <e p="_partialSubscribe.cshtml" t="Include" />
             <e p="Components" t="Include">
               <e p="Footer" t="Include">
                 <e p="Default.cshtml" t="Include" />
@@ -163,32 +176,14 @@
                 <e p="Default.cshtml" t="Include" />
               </e>
             </e>
-            <e p="_Layout.cshtml" t="Include" />
-            <e p="_partialPagination.cshtml" t="Include" />
-            <e p="_partialProduct.cshtml" t="Include" />
-            <e p="_partialSubscribe.cshtml" t="Include" />
           </e>
           <e p="Shop" t="Include">
             <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
-          <e p="_ViewImports.cshtml" t="Include" />
-          <e p="_ViewStart.cshtml" t="Include" />
-        </e>
-        <e p="XanElectronics.csproj" t="IncludeRecursive" />
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="XanElectronics.AssemblyInfo.cs" t="Include" />
-              <e p="XanElectronics.RazorAssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="wwwroot" t="Include">
-          <e p="admin" t="Include">
+          <e p="Admin" t="Include">
             <e p="css" t="Include">
               <e p="maps" t="Include">
                 <e p="style.css.map" t="Include" />
@@ -259,8 +254,8 @@
               <e p="logo.svg" t="Include" />
             </e>
             <e p="js" t="Include">
-              <e p="Chart.min.js" t="Include" />
               <e p="chart.js" t="Include" />
+              <e p="Chart.min.js" t="Include" />
               <e p="dashboard.js" t="Include" />
               <e p="data-table.js" t="Include" />
               <e p="dataTables.bootstrap4.js" t="Include" />
@@ -322,16 +317,6 @@
               </e>
             </e>
             <e p="fonts" t="Include">
-              <e p="Gilroy-Bold.woff" t="Include" />
-              <e p="Gilroy-Heavy.woff" t="Include" />
-              <e p="Gilroy-Light.woff" t="Include" />
-              <e p="Gilroy-Medium.woff" t="Include" />
-              <e p="Gilroy-Regular.woff" t="Include" />
-              <e p="Simple-Line-Icons.eot" t="Include" />
-              <e p="Simple-Line-Icons.svg" t="Include" />
-              <e p="Simple-Line-Icons.ttf" t="Include" />
-              <e p="Simple-Line-Icons.woff" t="Include" />
-              <e p="Simple-Line-Icons.woff2" t="Include" />
               <e p="fa-brands-400.eot" t="Include" />
               <e p="fa-brands-400.svg" t="Include" />
               <e p="fa-brands-400.ttf" t="Include" />
@@ -347,10 +332,20 @@
               <e p="fa-solid-900.ttf" t="Include" />
               <e p="fa-solid-900.woff" t="Include" />
               <e p="fa-solid-900.woff2" t="Include" />
+              <e p="Gilroy-Bold.woff" t="Include" />
+              <e p="Gilroy-Heavy.woff" t="Include" />
+              <e p="Gilroy-Light.woff" t="Include" />
+              <e p="Gilroy-Medium.woff" t="Include" />
+              <e p="Gilroy-Regular.woff" t="Include" />
               <e p="ionicons.eot" t="Include" />
               <e p="ionicons.svg" t="Include" />
               <e p="ionicons.ttf" t="Include" />
               <e p="ionicons.woff" t="Include" />
+              <e p="Simple-Line-Icons.eot" t="Include" />
+              <e p="Simple-Line-Icons.svg" t="Include" />
+              <e p="Simple-Line-Icons.ttf" t="Include" />
+              <e p="Simple-Line-Icons.woff" t="Include" />
+              <e p="Simple-Line-Icons.woff2" t="Include" />
             </e>
             <e p="img" t="Include">
               <e p="banner" t="Include">
@@ -385,16 +380,17 @@
                 <e p="avatar.jpg" t="Include" />
                 <e p="large-blog.jpg" t="Include" />
               </e>
-              <e p="brand" t="Include">
+              <e p="Brand" t="Include">
                 <e p="2.jpg" t="Include" />
                 <e p="3.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
                 <e p="8a4db29b-733b-4444-8257-6b559b6e20532.jpg" t="Include" />
+                <e p="8fdbddd3-05e9-446f-83a6-9d78d22fc2323.jpg" t="Include" />
                 <e p="946d3569-4909-44a8-9b72-071a2506c6e52.jpg" t="Include" />
                 <e p="ad3a0545-171e-4753-9e38-4e8426a4aea85.jpg" t="Include" />
               </e>
-              <e p="category" t="Include">
+              <e p="Category" t="Include">
                 <e p="1.1.jpg" t="Include" />
                 <e p="1.jpg" t="Include" />
                 <e p="2.jpg" t="Include" />
@@ -402,6 +398,7 @@
                 <e p="3.jpg" t="Include" />
                 <e p="4.1.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
+                <e p="4242c5f4-2c0f-4b32-9a56-8ed9300402334.1.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
@@ -504,10 +501,11 @@
                 <e p="9.jpg" t="Include" />
                 <e p="popular-bg.jpg" t="Include" />
               </e>
-              <e p="product" t="Include">
+              <e p="Product" t="Include">
                 <e p="007a1f01-f62d-4296-b652-bb8a79d349a72.jpg" t="Include" />
                 <e p="0183d911-450c-45e0-b195-96a6c788a4851.jpg" t="Include" />
                 <e p="0409a0fa-1193-49e1-b17e-a9fbc59030402.jpg" t="Include" />
+                <e p="04a4007d-61e0-4472-b880-ce70b2c6c0eb1.jpg" t="Include" />
                 <e p="095204c3-d00e-4a12-a68c-729b8ee713a54.jpg" t="Include" />
                 <e p="0eefca98-11fd-4c98-b863-c37543669d553.jpg" t="Include" />
                 <e p="1.jpg" t="Include" />
@@ -519,6 +517,7 @@
                 <e p="146eb80f-8afa-4a0e-b083-abed09322e713.jpg" t="Include" />
                 <e p="15.jpg" t="Include" />
                 <e p="16.jpg" t="Include" />
+                <e p="16cb9fc2-0efb-47c3-8810-d1ee0b3a6a556.jpg" t="Include" />
                 <e p="17.jpg" t="Include" />
                 <e p="18.jpg" t="Include" />
                 <e p="18114507-c353-4077-afcd-79a9aa299b622.jpg" t="Include" />
@@ -557,9 +556,11 @@
                 <e p="6238ecbf-607d-4f02-b1c3-05573a59901b5.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
                 <e p="7257ac03-d2d3-4c00-8e07-eb59690bfdec3.jpg" t="Include" />
+                <e p="78b61e72-6749-423c-9725-e8a1333220b72.jpg" t="Include" />
                 <e p="79e8dda8-ad5f-4235-8283-20c9c5ec3d834.jpg" t="Include" />
                 <e p="7d1be497-4e7e-4997-9436-93eea46b44663.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
+                <e p="84c07efe-5f0b-4521-b8c5-a7b1acdc5f9a3.jpg" t="Include" />
                 <e p="86000091-d26e-4908-a5f9-c28d3e1a1e3b2.jpg" t="Include" />
                 <e p="884c128d-6e34-4c9d-b404-40962b6158021.jpg" t="Include" />
                 <e p="885c5a71-adec-40cb-9514-24de6ef23e661.jpg" t="Include" />
@@ -567,6 +568,7 @@
                 <e p="a86bad51-646a-419b-9cf1-2567d376f9dc4.jpg" t="Include" />
                 <e p="b0b41113-744c-4e62-b5d2-6b52200630564.jpg" t="Include" />
                 <e p="c0d5eb28-34c4-4703-8d87-04437e32dec45.jpg" t="Include" />
+                <e p="c458eb67-4c70-42d6-b003-2d814f4e69e25.jpg" t="Include" />
                 <e p="e6131d5d-1e83-4e7e-ac46-1985bac2aada3.jpg" t="Include" />
                 <e p="e7c9fddc-bb1c-4806-910a-31e1dec656ab5.jpg" t="Include" />
                 <e p="ec0425e8-c6b3-4d21-be9e-3404e2f3def61.jpg" t="Include" />
@@ -657,7 +659,7 @@
                 <e p="_typography.scss" t="Include" />
                 <e p="_variables.scss" t="Include" />
               </e>
-              <e p="components" t="Include">
+              <e p="Components" t="Include">
                 <e p="all-ctry-menu" t="Include">
                   <e p="_all-ctry-menu.scss" t="Include" />
                 </e>
@@ -746,17 +748,17 @@
                 </e>
               </e>
               <e p="layout" t="Include">
-                <e p="footer" t="Include">
+                <e p="Footer" t="Include">
                   <e p="_footer.scss" t="Include" />
                 </e>
-                <e p="header" t="Include">
+                <e p="Header" t="Include">
                   <e p="_header.scss" t="Include" />
                 </e>
                 <e p="main-content" t="Include">
                   <e p="_main-content.scss" t="Include" />
                 </e>
               </e>
-              <e p="pages" t="Include">
+              <e p="Pages" t="Include">
                 <e p="_about-us.scss" t="Include" />
                 <e p="_account.scss" t="Include" />
                 <e p="_check-out.scss" t="Include" />
@@ -776,9 +778,9 @@
             </e>
           </e>
         </e>
+        <e p="XanElectronics.csproj" t="IncludeRecursive" />
       </e>
       <e p="XanElectronics.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
