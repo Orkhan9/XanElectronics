@@ -17,6 +17,7 @@
               <e p="MessageController.cs" t="Include" />
               <e p="ProductController.cs" t="Include" />
               <e p="SaleController.cs" t="Include" />
+              <e p="SearchAdminController.cs" t="Include" />
               <e p="SubscriptionController.cs" t="Include" />
             </e>
             <e p="Data" t="Include" />
@@ -56,6 +57,7 @@
               <e p="Shared" t="Include">
                 <e p="_adminLayout.cshtml" t="Include" />
                 <e p="_partialAdminProduct.cshtml" t="Include" />
+                <e p="_partialAdminProduct.cshtml.cs" t="Include" />
                 <e p="_partialValidation.cshtml" t="Include" />
               </e>
               <e p="Subscription" t="Include">
@@ -92,6 +94,16 @@
           <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
+          <e p="20201226124148_initial.cs" t="Include" />
+          <e p="20201226124148_initial.Designer.cs" t="Include" />
+          <e p="20201226210310_addedColumnIsfinishedSaleTable.cs" t="Include" />
+          <e p="20201226210310_addedColumnIsfinishedSaleTable.Designer.cs" t="Include" />
+          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.cs" t="Include" />
+          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.Designer.cs" t="Include" />
+          <e p="20201227145135_AddedBrandTable.cs" t="Include" />
+          <e p="20201227145135_AddedBrandTable.Designer.cs" t="Include" />
+          <e p="20201227154853_addedColumnIsDeletedBrandTable.cs" t="Include" />
+          <e p="20201227154853_addedColumnIsDeletedBrandTable.Designer.cs" t="Include" />
           <e p="20210110164001_addedDatabase.cs" t="Include" />
           <e p="20210110164001_addedDatabase.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
@@ -385,6 +397,7 @@
                 <e p="3.jpg" t="Include" />
                 <e p="4.jpg" t="Include" />
                 <e p="5.jpg" t="Include" />
+                <e p="86779772-ebb9-4611-aeb2-90e3de1ab9474.jpg" t="Include" />
                 <e p="8a4db29b-733b-4444-8257-6b559b6e20532.jpg" t="Include" />
                 <e p="8fdbddd3-05e9-446f-83a6-9d78d22fc2323.jpg" t="Include" />
                 <e p="946d3569-4909-44a8-9b72-071a2506c6e52.jpg" t="Include" />
@@ -404,6 +417,7 @@
                 <e p="7.jpg" t="Include" />
                 <e p="8.1.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
+                <e p="bc109fb7-2657-4c8e-81a3-11c0ec0c59511.1.jpg" t="Include" />
                 <e p="dc120175-4d92-4dc3-b3ef-43968045cef53.jpg" t="Include" />
               </e>
               <e p="favicon.ico" t="Include" />
@@ -533,6 +547,7 @@
                 <e p="27.jpg" t="Include" />
                 <e p="28.jpg" t="Include" />
                 <e p="29.jpg" t="Include" />
+                <e p="2e6ca907-af00-4aa5-a668-4063c4c1f6ff2.jpg" t="Include" />
                 <e p="3.jpg" t="Include" />
                 <e p="30.1.jpg" t="Include" />
                 <e p="30.jpg" t="Include" />
@@ -544,6 +559,7 @@
                 <e p="35.jpg" t="Include" />
                 <e p="36.jpg" t="Include" />
                 <e p="37.jpg" t="Include" />
+                <e p="374d16df-7083-44e7-a9ea-ea989872b1f93.jpg" t="Include" />
                 <e p="37f0b8b7-4c86-46a5-874d-e7ded5ab20494.jpg" t="Include" />
                 <e p="38.jpg" t="Include" />
                 <e p="3fad5d61-b6f5-4761-b4b9-78d1f89b9fad1.jpg" t="Include" />
@@ -558,6 +574,8 @@
                 <e p="7257ac03-d2d3-4c00-8e07-eb59690bfdec3.jpg" t="Include" />
                 <e p="78b61e72-6749-423c-9725-e8a1333220b72.jpg" t="Include" />
                 <e p="79e8dda8-ad5f-4235-8283-20c9c5ec3d834.jpg" t="Include" />
+                <e p="7c9fde61-f254-4ed5-b164-882ed0d8b7135.jpg" t="Include" />
+                <e p="7cac0240-b6be-464e-99ee-156f98cbfcd74.jpg" t="Include" />
                 <e p="7d1be497-4e7e-4997-9436-93eea46b44663.jpg" t="Include" />
                 <e p="8.jpg" t="Include" />
                 <e p="84c07efe-5f0b-4521-b8c5-a7b1acdc5f9a3.jpg" t="Include" />
@@ -566,6 +584,7 @@
                 <e p="885c5a71-adec-40cb-9514-24de6ef23e661.jpg" t="Include" />
                 <e p="9.jpg" t="Include" />
                 <e p="a86bad51-646a-419b-9cf1-2567d376f9dc4.jpg" t="Include" />
+                <e p="a8f4c96a-d03b-4eb5-b2ee-37ac9884a8b41.jpg" t="Include" />
                 <e p="b0b41113-744c-4e62-b5d2-6b52200630564.jpg" t="Include" />
                 <e p="c0d5eb28-34c4-4703-8d87-04437e32dec45.jpg" t="Include" />
                 <e p="c458eb67-4c70-42d6-b003-2d814f4e69e25.jpg" t="Include" />

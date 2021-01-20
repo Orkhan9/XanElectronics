@@ -334,6 +334,7 @@ namespace XanElectronics.Controllers
                 }
                 string xbasket = JsonConvert.SerializeObject(basketProducts);
                 Response.Cookies.Append("xbasket", xbasket, new CookieOptions { MaxAge = TimeSpan.FromDays(14) });
+                TempData["success"] = "Sifarishiniz ugurla yerine yetirildi, bizi sechdiyiniz uchun teshekkurler..";
                 return RedirectToAction("Index", "Basket");
             }
             else

@@ -97,6 +97,10 @@
         }
         else
         {
+            @if (TempData["success"] != null)
+            {
+                <div class="mt-3 alert alert-success">@TempData["success"]</div>
+            }
             <p>
                 Sebet boshdur mehsullari sechmek uchun ya
                 <a asp-controller="Home" asp-action="Index">Home</a> ya da
