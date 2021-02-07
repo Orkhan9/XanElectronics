@@ -45,8 +45,10 @@ namespace XanElectronics
             }).AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
+                options.UseMySql("server=localhost;user=u411104119_xanelectronics;password=Arazxan1998;database=u411104119_xanelectronics");
+
             });
+
             services.AddControllersWithViews();
             services.AddAutoMapper(typeof(MappingProfile));
         }
