@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\orkhan\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\orkhan\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_XanElectronics.-876627178.00" t="ExcludeRecursive" />
+    <e p="C:\Users\orkhan\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
     <e p="C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\xanelectronics" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="xanelectronics" t="IncludeRecursive">
@@ -94,18 +95,8 @@
           <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20201226124148_initial.cs" t="Include" />
-          <e p="20201226124148_initial.Designer.cs" t="Include" />
-          <e p="20201226210310_addedColumnIsfinishedSaleTable.cs" t="Include" />
-          <e p="20201226210310_addedColumnIsfinishedSaleTable.Designer.cs" t="Include" />
-          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.cs" t="Include" />
-          <e p="20201226220240_deletedColumnIsActivatedAppuserTable.Designer.cs" t="Include" />
-          <e p="20201227145135_AddedBrandTable.cs" t="Include" />
-          <e p="20201227145135_AddedBrandTable.Designer.cs" t="Include" />
-          <e p="20201227154853_addedColumnIsDeletedBrandTable.cs" t="Include" />
-          <e p="20201227154853_addedColumnIsDeletedBrandTable.Designer.cs" t="Include" />
-          <e p="20210110164001_addedDatabase.cs" t="Include" />
-          <e p="20210110164001_addedDatabase.Designer.cs" t="Include" />
+          <e p="20210130202132_initialDatabase.cs" t="Include" />
+          <e p="20210130202132_initialDatabase.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
