@@ -19,6 +19,7 @@
               <e p="ProductController.cs" t="Include" />
               <e p="SaleController.cs" t="Include" />
               <e p="SearchAdminController.cs" t="Include" />
+              <e p="SliderController.cs" t="Include" />
               <e p="SubscriptionController.cs" t="Include" />
             </e>
             <e p="Data" t="Include" />
@@ -61,6 +62,12 @@
                 <e p="_partialAdminProduct.cshtml.cs" t="Include" />
                 <e p="_partialValidation.cshtml" t="Include" />
               </e>
+              <e p="slider" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
+              </e>
               <e p="Subscription" t="Include">
                 <e p="Index.cshtml" t="Include" />
               </e>
@@ -97,10 +104,13 @@
         <e p="Migrations" t="Include">
           <e p="20210314163554_connectDatabase.cs" t="Include" />
           <e p="20210314163554_connectDatabase.Designer.cs" t="Include" />
+          <e p="20210317183155_createSliderAndBanner.cs" t="Include" />
+          <e p="20210317183155_createSliderAndBanner.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="AppUser.cs" t="Include" />
+          <e p="Banner.cs" t="Include" />
           <e p="Bio.cs" t="Include" />
           <e p="Brand.cs" t="Include" />
           <e p="Category.cs" t="Include" />
@@ -110,6 +120,7 @@
           <e p="Sale.cs" t="Include" />
           <e p="SaleProduct.cs" t="Include" />
           <e p="Service.cs" t="Include" />
+          <e p="Slider.cs" t="Include" />
           <e p="Subscription.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -144,6 +155,7 @@
           <e p="CategoryCreateVM.cs" t="Include" />
           <e p="CategoryUpdateVM.cs" t="Include" />
           <e p="ContactVM.cs" t="Include" />
+          <e p="CreateSliderVM.cs" t="Include" />
           <e p="HomeVM.cs" t="Include" />
           <e p="LoginVm.cs" t="Include" />
           <e p="MessageCreateVM.cs" t="Include" />

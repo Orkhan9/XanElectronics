@@ -25,7 +25,9 @@ namespace XanElectronics.Controllers
                 Products = _context.Products.Include(x => x.ProductImages).Include(x => x.Category).ToList(),
                 Categories = _context.Categories.Include(x=>x.Products).ToList(),
                 Brands=_context.Brands.ToList(),
-                Services=_context.Services.ToList()
+                Services=_context.Services.ToList(),
+                Sliders=_context.Sliders.ToList(),
+                Banners=_context.Banners.ToList()
             };
             return View(homeVM);
         }

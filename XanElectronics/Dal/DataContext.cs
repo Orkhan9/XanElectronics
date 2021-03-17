@@ -19,6 +19,8 @@ namespace XanElectronics.Dal
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Banner> Banners { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

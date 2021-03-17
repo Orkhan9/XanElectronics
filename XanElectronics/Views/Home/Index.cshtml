@@ -7,54 +7,30 @@
 <!-- main slider start -->
 <section class="bg-light position-relative">
     <div class="main-slider dots-style theme3">
-        <div class="slider-item bg-img bg-img7">
-            <div class="container">
-                <div class="row align-items-center slider-height">
-                    <div class="col-12">
-                        <div class="slider-content d-inline-block text-center">
-                            <p class="text text-lighten text-uppercase animated mb-25" data-animation-in="fadeInDown">
-                                100% Natural Skincare
-                            </p>
-                            <h4 class="title text-dark animated text-capitalize mb-25" data-animation-in="fadeInLeft"
-                                data-delay-in="1">
-                                Emerald Deep
-                            </h4>
-                            <h2 class="sub-title text-dark animated" data-animation-in="fadeInRight" data-delay-in="2">
-                                Moisture Glow Oil
-                            </h2>
-                            <a href="shop-grid-4-column.html"
-                               class="btn theme--btn3 btn--lg text-uppercase rounded-5 animated mt-45 mt-sm-25"
-                               data-animation-in="zoomIn" data-delay-in="3">Shop now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- slider-item end -->
-        <div class="slider-item bg-img bg-img8">
+        @foreach (var item in Model.Sliders)
+        {
+        <div class="slider-item bg-img bg-img8" style="background-image: url(/assets/img/slider/@item.Image)">
             <div class="container">
                 <div class="row align-items-center slider-height">
                     <div class="col-12">
                         <div class="slider-content d-inline-block text-center">
                             <p class="text text-lighten text-uppercase animated mb-25" data-animation-in="fadeInLeft">
-                                Organic Skin care
+                                @item.Title
                             </p>
                             <h4 class="title text-dark animated text-capitalize mb-25" data-animation-in="fadeInRight"
                                 data-delay-in="1">
-                                Perfect Summer
+                                @item.Description
                             </h4>
-                            <h2 class="sub-title text-dark animated" data-animation-in="fadeInUp" data-delay-in="2">
-                                Skin
-                                Care Solution
-                            </h2>
-                            <a href="shop-grid-4-column.html"
-                               class="btn theme--btn3 btn--lg text-uppercase rounded-5 animated mt-45 mt-sm-25"
-                               data-animation-in="zoomIn" data-delay-in="3">Skin Care Solution</a>
+                            @*<a href="shop-grid-4-column.html"
+                        class="btn theme--btn3 btn--lg text-uppercase rounded-5 animated mt-45 mt-sm-25"
+                        data-animation-in="zoomIn" data-delay-in="3">Skin Care Solution</a>*@
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        }
         <!-- slider-item end -->
     </div>
     <!-- slick-progress -->
@@ -68,25 +44,14 @@
 <div class="common-banner bg-white pt-80">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mb-30">
-                <div class="banner-thumb">
-                    <a href="shop-grid-4-column.html" class="zoom-in d-block overflow-hidden">
-                        <img src="~/assets/img/banner/19.jpg" alt="banner-thumb-naile">
-                    </a>
+            @foreach (var item in Model.Banners)
+            {
+                <div class="col-md-6 mb-30">
+                    <div class="banner-thumb">
+                        <img src="~/assets/img/banner/@item.Image" alt="banner-thumb-naile">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 mb-30">
-                <div class="banner-thumb mb-30">
-                    <a href="shop-grid-4-column.html" class="zoom-in d-block overflow-hidden">
-                        <img src="~/assets/img/banner/20.jpg" alt="banner-thumb-naile">
-                    </a>
-                </div>
-                <div class="banner-thumb">
-                    <a href="shop-grid-4-column.html" class="zoom-in d-block overflow-hidden">
-                        <img src="~/assets/img/banner/21.jpg" alt="banner-thumb-naile">
-                    </a>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>
@@ -146,12 +111,12 @@
                                                     {
                                                         <span class="badge badge-danger top-right">New</span>
                                                     }
-                                                    <a href="single-product.html">
+                                                    <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                         <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                              alt="thumbnail">
                                                     </a>
                                                     <!-- product links -->
-                                                    <ul class="product-links d-flex justify-content-center">
+                                                    @*<ul class="product-links d-flex justify-content-center">
                                                         <li>
                                                             <a href="wishlist.html">
                                                                 <span data-toggle="tooltip" data-placement="bottom"
@@ -170,7 +135,7 @@
                                                                       title="Quick view" class="icon-magnifier"></span>
                                                             </a>
                                                         </li>
-                                                    </ul>
+                                                    </ul>*@
                                                     <!-- product links end-->
                                                 </div>
                                                 <div class="media-body">
@@ -236,7 +201,7 @@
                                                          alt="thumbnail">
                                                 </a>
                                                 <!-- product links -->
-                                                <ul class="product-links d-flex justify-content-center">
+                                                @*<ul class="product-links d-flex justify-content-center">
                                                     <li>
                                                         <a href="wishlist.html">
                                                             <span data-toggle="tooltip" data-placement="bottom"
@@ -255,7 +220,7 @@
                                                                   title="Quick view" class="icon-magnifier"></span>
                                                         </a>
                                                     </li>
-                                                </ul>
+                                                </ul>*@
                                                 <!-- product links end-->
                                             </div>
                                             <div class="media-body">
@@ -320,7 +285,7 @@
                                                          alt="thumbnail">
                                                 </a>
                                                 <!-- product links -->
-                                                <ul class="product-links d-flex justify-content-center">
+                                                @*<ul class="product-links d-flex justify-content-center">
                                                     <li>
                                                         <a href="wishlist.html">
                                                             <span data-toggle="tooltip" data-placement="bottom"
@@ -339,7 +304,7 @@
                                                                   title="Quick view" class="icon-magnifier"></span>
                                                         </a>
                                                     </li>
-                                                </ul>
+                                                </ul>*@
                                                 <!-- product links end-->
                                             </div>
                                             <div class="media-body">
@@ -413,12 +378,12 @@
                                             
                                             <span class="badge badge-danger top-right">New</span>
                                             
-                                            <a href="single-product.html">
+                                            <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                 <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                      alt="thumbnail">
                                             </a>
                                             <!-- product links -->
-                                            <ul class="product-links d-flex justify-content-center">
+                                            @*<ul class="product-links d-flex justify-content-center">
                                                 <li>
                                                     <a href="wishlist.html">
                                                         <span data-toggle="tooltip" data-placement="bottom"
@@ -437,13 +402,13 @@
                                                               title="Quick view" class="icon-magnifier"></span>
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul>*@
                                             <!-- product links end-->
                                         </div>
                                         <div class="media-body">
                                             <div class="product-desc">
                                                 <h3 class="title">
-                                                    <a href="shop-grid-4-column.html">
+                                                    <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                         @item.Name
                                                     </a>
                                                 </h3>
@@ -491,7 +456,7 @@
                 <div class="section-title text-center mb-30">
                     <h2 class="title text-dark text-capitalize">Popular Categories</h2>
                     <p class="text mt-10">
-                        Some of our popular categories include cosmetic
+                        Some of our popular categories
                     </p>
                 </div>
             </div>
@@ -507,12 +472,9 @@
                                              src="~/assets/img/popular/@item.ImageUrl" alt="img">
                                     </a>
                                     <h3 class="popular-title">
-                                        <a href="#">
-                                            @item.Name
+                                         @item.Name
                                             
                                          <span>(@item.ProductCount)</span>
-                                            
-                                        </a>
                                     </h3>
                                 </div>
                             </div>
@@ -534,9 +496,7 @@
 	                {
                         <div class="slider-item">
                             <div class="single-brand">
-                                <a href="https://themeforest.net/user/hastech" class="brand-thumb">
-                                    <img src="~/assets/img/brand/@item.ImageUrl" alt="brand-thumb-nail">
-                                </a>
+                                <img src="~/assets/img/brand/@item.ImageUrl" alt="brand-thumb-nail">
                             </div>
                         </div>
 	                }
@@ -546,28 +506,6 @@
     </div>
 </div>
 <!-- brand slider end -->
-<!-- common banner  start -->
-<div class="common-banner bg-white pb-50">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mb-30">
-                <div class="banner-thumb common-bthumb1">
-                    <a href="shop-grid-4-column.html" class="zoom-in d-block overflow-hidden">
-                        <img src="~/assets/img/banner/22.jpg" alt="banner-thumb-naile">
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-30">
-                <div class="banner-thumb common-bthumb1">
-                    <a href="shop-grid-4-column.html" class="zoom-in d-block overflow-hidden">
-                        <img src="~/assets/img/banner/23.jpg" alt="banner-thumb-naile">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- common banner  end -->
 <!-- featured  slider start-->
 <section class="featured-slider theme3 pb-80">
     <div class="container">
@@ -596,7 +534,7 @@
                                     <div class="card-body p-0">
                                         <div class="media">
                                             <div class="product-thumbnail">
-                                                <a href="single-product.html">
+                                                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                     <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                          alt="thumbnail">
                                                 </a>
@@ -604,7 +542,7 @@
                                             <div class="media-body ml-1">
                                                 <div class="product-desc">
                                                     <h3 class="title">
-                                                        <a href="shop-grid-4-column.html">
+                                                        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                             @item.Name
                                                         </a>
                                                     </h3>

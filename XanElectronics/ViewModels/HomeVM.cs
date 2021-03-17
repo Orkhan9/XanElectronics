@@ -12,5 +12,7 @@ namespace XanElectronics.ViewModels
         public ICollection<Category> Categories { get; set; }
         public ICollection<Brand> Brands { get; set; }
         public ICollection<Service> Services { get; set; }
+        public ICollection<Slider> Sliders { get; set; }
+        public ICollection<Banner> Banners { get; set; }
     }
 }
