@@ -95,8 +95,8 @@
           <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20210130202132_initialDatabase.cs" t="Include" />
-          <e p="20210130202132_initialDatabase.Designer.cs" t="Include" />
+          <e p="20210314163554_connectDatabase.cs" t="Include" />
+          <e p="20210314163554_connectDatabase.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -123,6 +123,9 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FTPProfile.pubxml" t="Include" />
+          </e>
         </e>
         <e p="ScaffoldingReadMe.txt" t="Include" />
         <e p="Services" t="Include">

@@ -15,7 +15,7 @@ inputSearch.addEventListener("keyup",function (){
   if(search.length>0){
     axios.post('/Search/Search', formdata)
         .then(function (response) {
-          console.log(response.data)
+          // console.log(response.data)
           searchList.innerHTML=response.data;
         })
         .catch(function (error) {

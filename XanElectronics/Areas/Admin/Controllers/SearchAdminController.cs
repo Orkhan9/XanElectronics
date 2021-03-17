@@ -7,10 +7,10 @@ using XanElectronics.Models;
 
 namespace XanElectronics.Areas.Admin.Controllers
 {
-    public class SearchController : Controller
+    public class SearchAdminController : Controller
     {
         private readonly DataContext _context;
-        public SearchController(DataContext context)
+        public SearchAdminController(DataContext context)
         {
             _context = context;
         }

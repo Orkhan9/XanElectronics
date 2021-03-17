@@ -14,7 +14,7 @@
                     {
                         <span class="badge badge-danger top-right">New</span>
                     }
-                    <a href="single-product.html">
+                    <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                         @foreach (var prImage in item.ProductImages.Take(1))
                         {
                             <img class="first-img" src="~/assets/img/product/@prImage.ImageUrl" alt="thumbnail">

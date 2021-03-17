@@ -32,9 +32,9 @@ namespace XanElectronics
             services.AddIdentity<AppUser, IdentityRole>(identityOptions =>
             {
                 identityOptions.Password.RequiredLength = 5;
-                identityOptions.Password.RequireNonAlphanumeric = true;
-                identityOptions.Password.RequireLowercase = true;
-                identityOptions.Password.RequireUppercase = true;
+                identityOptions.Password.RequireNonAlphanumeric = false;
+                identityOptions.Password.RequireLowercase = false;
+                identityOptions.Password.RequireUppercase = false;
                 identityOptions.Password.RequireDigit = true;
 
                 identityOptions.User.RequireUniqueEmail = true;
@@ -45,7 +45,7 @@ namespace XanElectronics
             }).AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseMySql("server=localhost;user=u411104119_xanelectronics;password=Arazxan1998;database=u411104119_xanelectronics");
+                options.UseSqlServer(_config["ConnectionStrings:DefaultConnection"]);
 
             });
 
