@@ -6,11 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20210110172604_changed.cs" />
-    <Compile Remove="Migrations\20210110172604_changed.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Pages" />

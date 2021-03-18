@@ -115,33 +115,12 @@
                                                         <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                              alt="thumbnail">
                                                     </a>
-                                                    <!-- product links -->
-                                                    @*<ul class="product-links d-flex justify-content-center">
-                                                        <li>
-                                                            <a href="wishlist.html">
-                                                                <span data-toggle="tooltip" data-placement="bottom"
-                                                                      title="add to wishlist" class="icon-heart"> </span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" data-toggle="modal" data-target="#compare">
-                                                                <span data-toggle="tooltip" data-placement="bottom"
-                                                                      title="Add to compare" class="icon-shuffle"></span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" data-toggle="modal" data-target="#quick-view">
-                                                                <span data-toggle="tooltip" data-placement="bottom"
-                                                                      title="Quick view" class="icon-magnifier"></span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>*@
-                                                    <!-- product links end-->
+                                                    
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="product-desc">
                                                         <h3 class="title">
-                                                            <a href="shop-grid-4-column.html">
+                                                            <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                                 @item.Name
                                                             </a>
                                                         </h3>
@@ -156,13 +135,13 @@
                                                             @if (item.DisCountRate > 0)
                                                             {
                                                                 <h6 class="product-price">
-                                                                    <del class="del">$ @item.Price.ToString("C2")</del>
-                                                                    <span class="onsale">$ @item.ResultPrice.ToString("C2")</span>
+                                                                    <del class="del">@item.Price.ToString("C2")</del>
+                                                                    <span class="onsale">@item.ResultPrice.ToString("C2")</span>
                                                                 </h6>
                                                             }
                                                             else
                                                             {
-                                                                <h6 class="product-price">$ @item.Price.ToString("C2")</h6>
+                                                                <h6 class="product-price">@item.Price.ToString("C2")</h6>
                                                             }
                                                             <button class="pro-btn">
                                                                 <i class="icon-basket addToBasket" data-id="@item.Id"></i>
@@ -196,37 +175,16 @@
                                                 {
                                                     <span class="badge badge-danger top-right">New</span>
                                                 }
-                                                <a href="single-product.html">
+                                                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                     <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                          alt="thumbnail">
                                                 </a>
-                                                <!-- product links -->
-                                                @*<ul class="product-links d-flex justify-content-center">
-                                                    <li>
-                                                        <a href="wishlist.html">
-                                                            <span data-toggle="tooltip" data-placement="bottom"
-                                                                  title="add to wishlist" class="icon-heart"> </span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" data-toggle="modal" data-target="#compare">
-                                                            <span data-toggle="tooltip" data-placement="bottom"
-                                                                  title="Add to compare" class="icon-shuffle"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" data-toggle="modal" data-target="#quick-view">
-                                                            <span data-toggle="tooltip" data-placement="bottom"
-                                                                  title="Quick view" class="icon-magnifier"></span>
-                                                        </a>
-                                                    </li>
-                                                </ul>*@
-                                                <!-- product links end-->
+                                                
                                             </div>
                                             <div class="media-body">
                                                 <div class="product-desc">
                                                     <h3 class="title">
-                                                        <a href="shop-grid-4-column.html">
+                                                        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                             @item.Name
                                                         </a>
                                                     </h3>
@@ -241,13 +199,13 @@
                                                         @if (item.DisCountRate > 0)
                                                         {
                                                             <h6 class="product-price">
-                                                                <del class="del">$ @item.Price.ToString("C2")</del>
-                                                                <span class="onsale">$ @item.ResultPrice.ToString("C2")</span>
+                                                                <del class="del">@item.Price.ToString("C2")</del>
+                                                                <span class="onsale">@item.ResultPrice.ToString("C2")</span>
                                                             </h6>
                                                         }
                                                         else
                                                         {
-                                                            <h6 class="product-price">$ @item.Price.ToString("C2")</h6>
+                                                            <h6 class="product-price">@item.Price.ToString("C2")</h6>
                                                         }
                                                         <button class="pro-btn">
                                                             <i class="icon-basket addToBasket" data-id="@item.Id"></i>
@@ -280,7 +238,7 @@
                                                 {
                                                     <span class="badge badge-danger top-right">New</span>
                                                 }
-                                                <a href="single-product.html">
+                                                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                     <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                          alt="thumbnail">
                                                 </a>
@@ -310,7 +268,7 @@
                                             <div class="media-body">
                                                 <div class="product-desc">
                                                     <h3 class="title">
-                                                        <a href="shop-grid-4-column.html">
+                                                        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Id">
                                                             @item.Name
                                                         </a>
                                                     </h3>
@@ -325,13 +283,13 @@
                                                         @if (item.DisCountRate > 0)
                                                         {
                                                             <h6 class="product-price">
-                                                                <del class="del">$ @item.Price.ToString("C2")</del>
-                                                                <span class="onsale">$ @item.ResultPrice.ToString("C2")</span>
+                                                                <del class="del">@item.Price.ToString("C2")</del>
+                                                                <span class="onsale">@item.ResultPrice.ToString("C2")</span>
                                                             </h6>
                                                         }
                                                         else
                                                         {
-                                                            <h6 class="product-price">$ @item.Price.ToString("C2")</h6>
+                                                            <h6 class="product-price">@item.Price.ToString("C2")</h6>
                                                         }
                                                         <button class="pro-btn">
                                                             <i class="icon-basket addToBasket" data-id="@item.Id"></i>
@@ -382,28 +340,6 @@
                                                 <img class="first-img" src="~/assets/img/product/@item.ProductImages.ElementAt(0).ImageUrl"
                                                      alt="thumbnail">
                                             </a>
-                                            <!-- product links -->
-                                            @*<ul class="product-links d-flex justify-content-center">
-                                                <li>
-                                                    <a href="wishlist.html">
-                                                        <span data-toggle="tooltip" data-placement="bottom"
-                                                              title="add to wishlist" class="icon-heart"> </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" data-toggle="modal" data-target="#compare">
-                                                        <span data-toggle="tooltip" data-placement="bottom"
-                                                              title="Add to compare" class="icon-shuffle"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" data-toggle="modal" data-target="#quick-view">
-                                                        <span data-toggle="tooltip" data-placement="bottom"
-                                                              title="Quick view" class="icon-magnifier"></span>
-                                                    </a>
-                                                </li>
-                                            </ul>*@
-                                            <!-- product links end-->
                                         </div>
                                         <div class="media-body">
                                             <div class="product-desc">
@@ -423,13 +359,13 @@
                                                     @if (item.DisCountRate > 0)
                                                     {
                                                         <h6 class="product-price">
-                                                            <del class="del">$ @item.Price.ToString("C2")</del>
-                                                            <span class="onsale">$ @item.ResultPrice.ToString("C2")</span>
+                                                            <del class="del">@item.Price.ToString("C2")</del>
+                                                            <span class="onsale">@item.ResultPrice.ToString("C2")</span>
                                                         </h6>
                                                     }
                                                     else
                                                     {
-                                                        <h6 class="product-price">$ @item.Price.ToString("C2")</h6>
+                                                        <h6 class="product-price">@item.Price.ToString("C2")</h6>
                                                     }
                                                     <button class="pro-btn">
                                                         <i class="icon-basket addToBasket" data-id="@item.Id"></i>
@@ -467,10 +403,8 @@
                         <div class="slider-item">
                             <div class="card popular-card zoom-in">
                                 <div class="card-body">
-                                    <a href="#" class="thumb-naile d-block overflow-hidden">
                                         <img class="d-block mx-auto"
                                              src="~/assets/img/popular/@item.ImageUrl" alt="img">
-                                    </a>
                                     <h3 class="popular-title">
                                          @item.Name
                                             
@@ -556,13 +490,13 @@
                                                         @if (item.DisCountRate > 0)
                                                         {
                                                             <h6 class="product-price">
-                                                                <del class="del">$ @item.Price.ToString("C2")</del>
-                                                                <span class="onsale">$ @item.ResultPrice.ToString("C2")</span>
+                                                                <del class="del">@item.Price.ToString("C2")</del>
+                                                                <span class="onsale">@item.ResultPrice.ToString("C2")</span>
                                                             </h6>
                                                         }
                                                         else
                                                         {
-                                                            <h6 class="product-price">$ @item.Price.ToString("C2")</h6>
+                                                            <h6 class="product-price">@item.Price.ToString("C2")</h6>
                                                         }
                                                         <button class="pro-btn">
                                                             <i class="icon-basket addToBasket" data-id="@item.Id"></i>
@@ -605,4 +539,3 @@
     </div>
 </section>
 <!-- staic media end -->
-<!-- brand slider start -->

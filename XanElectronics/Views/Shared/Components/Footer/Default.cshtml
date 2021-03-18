@@ -11,9 +11,7 @@
                     <div class="col-12 col-md-6 col-lg-4 mb-30">
                         <div class="footer-widget mx-w-400">
                             <div class="footer-logo mb-35">
-                                <a href="index.html">
-                                    <img src="~/assets/img/logo/@Model.FooterLogoUrl" alt="footer logo">
-                                </a>
+                                 <img src="~/assets/img/logo/@Model.FooterLogoUrl" alt="footer logo">
                             </div>
                             <p class="text mb-30">
                                 We are a team of designers and developers that create high quality
@@ -34,22 +32,22 @@
                             <div class="social-network">
                                 <ul class="d-flex">
                                     <li>
-                                        <a href="@Model.Facebook" target="_blank">
+                                        <a href="http://@Model.Facebook" target="_blank">
                                             <span class="icon-social-facebook"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="@Model.Twitter" target="_blank">
+                                        <a href="http://@Model.Twitter" target="_blank">
                                             <span class="icon-social-twitter"></span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="@Model.Youtube" target="_blank">
+                                        <a href="http://@Model.Youtube" target="_blank">
                                             <span class="icon-social-youtube"></span>
                                         </a>
                                     </li>
                                     <li class="mr-0">
-                                        <a href="@Model.Instagram" target="_blank">
+                                        <a href="http://@Model.Instagram" target="_blank">
                                             <span class="icon-social-instagram"></span>
                                         </a>
                                     </li>
@@ -66,12 +64,12 @@
                             </div>
                             <!-- footer-menu start -->
                             <ul class="footer-menu">
-                                <li><a href="#">Delivery</a></li>
-                                <li><a href="about-us.html">About us</a></li>
-                                <li><a href="#">Secure payment</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="#">Sitemap</a></li>
-                                <li><a href="#">Stores</a></li>
+                                <li>Delivery</li>
+                                <li>About us</li>
+                                <li>Secure payment</li>
+                                <li><a asp-controller="Contact" asp-action="Index">Contact us</a></li>
+                                <li>Sitemap</li>
+                                <li>Stores</li>
                             </ul>
                             <!-- footer-menu end -->
                         </div>
@@ -85,16 +83,14 @@
                             </div>
                             <!-- footer-menu start -->
                             <ul class="footer-menu">
-                                <li><a href="#">Legal Notice</a></li>
-                                <li><a href="#">Prices drop</a></li>
+                                <li>Legal Notice</li>
+                                <li>Prices drop</li>
 
-                                <li><a href="#">New products</a></li>
+                                <li>New products</li>
 
-                                <li><a href="#">Best sales</a></li>
+                                <li>Best sales</li>
 
-                                <li><a href="login.html">Login</a></li>
-
-                                <li><a href="myaccount.html">My account</a></li>
+                                <li><a asp-controller="Account" asp-action="Login">Login</a></li>
                             </ul>
                             <!-- footer-menu end -->
                         </div>
@@ -111,7 +107,7 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="text-left">
                             <p class="mb-3 mb-md-0">
-                                Copyright &copy; <a href="https://hasthemes.com/">HasThemes</a>. All
+                                Copyright &copy; Xanelectronics. All
                                 Rights Reserved
                             </p>
                         </div>

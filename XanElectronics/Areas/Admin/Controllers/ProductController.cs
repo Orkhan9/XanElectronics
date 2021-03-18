@@ -233,9 +233,14 @@ namespace XanElectronics.Areas.Admin.Controllers
             }
 
             product.Name = productUpdateDto.Name;
+            product.Price = productUpdateDto.Price;
+            product.Color = productUpdateDto.Color;
+            product.Code = productUpdateDto.Code;
+            product.IsOriginal = productUpdateDto.IsOriginal;
             product.IsNew = productUpdateDto.IsNew;
             product.IsFeatured = productUpdateDto.IsFeatured;
-            product.Price = productUpdateDto.Price;
+            product.LongDescription = productUpdateDto.LongDescription;
+            product.ShortDescription = productUpdateDto.ShortDescription;
             product.Star = productUpdateDto.Star;
             product.DisCountRate = productUpdateDto.DisCountRate;
             product.ResultPrice = resultPrice;

@@ -22,5 +22,15 @@ namespace XanElectronics.Areas.Admin.Controllers
         {
             return View(_context.Subscriptions.ToList());
         }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+            var subscription = _context.Subscriptions.FirstOrDefault(x => x.Id == id);
+            if (subscription == null) return NotFound();
+            _context.Subscriptions.Remove(subscription);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

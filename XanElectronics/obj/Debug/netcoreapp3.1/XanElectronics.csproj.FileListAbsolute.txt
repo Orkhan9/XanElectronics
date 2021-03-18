@@ -134,7 +134,6 @@ C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanEl
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.csprojAssemblyReference.cache
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.AssemblyInfoInputs.cache
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.AssemblyInfo.cs
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.csproj.CoreCompileInputs.cache
@@ -148,7 +147,9 @@ C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanEl
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.TagHelpers.output.cache
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.RazorCoreGenerate.cache
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Create.cshtml.g.cs
+C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Delete.cshtml.g.cs
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Index.cshtml.g.cs
+C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Update.cshtml.g.cs
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Brand\Create.cshtml.g.cs
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Brand\Index.cshtml.g.cs
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Brand\Update.cshtml.g.cs
@@ -198,5 +199,4 @@ C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanEl
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.dll
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.pdb
 C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.genruntimeconfig.cache
-C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Delete.cshtml.g.cs
-C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Banner\Update.cshtml.g.cs
+C:\Users\orkhan\OneDrive\Desktop\my projects\xanelectronics\XanElectronics\XanElectronics\obj\Debug\netcoreapp3.1\XanElectronics.csprojAssemblyReference.cache

@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>03/14/2021 20:34:30</publishTime>
+      <publishTime>03/18/2021 02:17:58</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>10/14/2020 19:16:22</publishTime>
@@ -50,7 +50,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
-      <publishTime>08/03/2020 18:30:10</publishTime>
+      <publishTime>02/09/2021 21:12:02</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -221,25 +221,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/24/2019 19:56:06</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
-      <publishTime>08/03/2020 18:29:50</publishTime>
+      <publishTime>02/09/2021 21:11:34</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
-      <publishTime>08/03/2020 18:30:02</publishTime>
+      <publishTime>02/09/2021 21:11:44</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
-      <publishTime>08/03/2020 18:30:04</publishTime>
+      <publishTime>02/09/2021 21:11:52</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
-      <publishTime>08/03/2020 18:30:02</publishTime>
+      <publishTime>02/09/2021 21:11:50</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
-      <publishTime>08/03/2020 18:29:58</publishTime>
+      <publishTime>02/09/2021 21:11:42</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
-      <publishTime>08/03/2020 18:29:56</publishTime>
+      <publishTime>02/09/2021 21:11:40</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
-      <publishTime>08/03/2020 18:30:06</publishTime>
+      <publishTime>02/09/2021 21:11:52</publishTime>
     </File>
     <File Include="MimeKit.dll">
       <publishTime>04/04/2020 00:59:56</publishTime>
@@ -368,7 +368,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>03/14/2021 20:57:32</publishTime>
+      <publishTime>03/18/2021 22:57:32</publishTime>
     </File>
     <File Include="wwwroot/admin/css/maps/style.css.map">
       <publishTime>01/10/2021 00:32:47</publishTime>
@@ -795,6 +795,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="wwwroot/assets/img/banner/7.jpg">
       <publishTime>01/10/2021 00:32:47</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/banner/a54988d6-5aac-4581-bd52-9b6ee6b216b4ffff.jpeg.jfif">
+      <publishTime>03/18/2021 00:09:38</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/banner/f8cc4409-8dbb-450f-beaf-8f5ab5273f6aCoding.jpg">
+      <publishTime>03/18/2021 00:09:16</publishTime>
     </File>
     <File Include="wwwroot/assets/img/blog-post/1.jpg">
       <publishTime>01/10/2021 00:32:47</publishTime>
@@ -1375,6 +1381,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/assets/img/single-product/4.jpg">
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
+    <File Include="wwwroot/assets/img/slider/3b497b11-9431-4c6a-8abd-88c2429124e7ffff.jpeg.jfif">
+      <publishTime>03/17/2021 23:28:38</publishTime>
+    </File>
+    <File Include="wwwroot/assets/img/slider/521e2ff8-1395-4deb-9939-a7e27d03aea5website.jpg">
+      <publishTime>03/17/2021 23:02:57</publishTime>
+    </File>
     <File Include="wwwroot/assets/img/slider/slide1.jpg">
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
@@ -1487,7 +1499,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
     <File Include="wwwroot/assets/js/main.js">
-      <publishTime>01/10/2021 00:32:47</publishTime>
+      <publishTime>03/17/2021 22:04:04</publishTime>
     </File>
     <File Include="wwwroot/assets/js/main.min.js">
       <publishTime>01/10/2021 00:32:47</publishTime>
@@ -1706,25 +1718,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
     <File Include="XanElectronics.deps.json">
-      <publishTime>03/14/2021 20:57:32</publishTime>
+      <publishTime>03/18/2021 22:57:31</publishTime>
     </File>
     <File Include="XanElectronics.dll">
-      <publishTime>03/14/2021 20:57:21</publishTime>
+      <publishTime>03/18/2021 22:57:28</publishTime>
     </File>
     <File Include="XanElectronics.exe">
-      <publishTime>03/14/2021 20:57:21</publishTime>
+      <publishTime>03/18/2021 22:57:28</publishTime>
     </File>
     <File Include="XanElectronics.pdb">
-      <publishTime>03/14/2021 20:57:21</publishTime>
+      <publishTime>03/18/2021 22:57:28</publishTime>
     </File>
     <File Include="XanElectronics.runtimeconfig.json">
-      <publishTime>03/14/2021 20:57:24</publishTime>
+      <publishTime>03/18/2021 22:48:02</publishTime>
     </File>
     <File Include="XanElectronics.Views.dll">
-      <publishTime>03/14/2021 20:57:23</publishTime>
+      <publishTime>03/18/2021 22:57:30</publishTime>
     </File>
     <File Include="XanElectronics.Views.pdb">
-      <publishTime>03/14/2021 20:57:23</publishTime>
+      <publishTime>03/18/2021 22:57:30</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>

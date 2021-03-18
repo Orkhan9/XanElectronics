@@ -12,6 +12,7 @@
         <e p="Areas" t="Include">
           <e p="Admin" t="Include">
             <e p="Controllers" t="Include">
+              <e p="BannerController.cs" t="Include" />
               <e p="BrandController.cs" t="Include" />
               <e p="CategoryController.cs" t="Include" />
               <e p="DashboardController.cs" t="Include" />
@@ -28,6 +29,12 @@
             <e p="Views" t="Include">
               <e p="_ViewImports.cshtml" t="Include" />
               <e p="_ViewStart.cshtml" t="Include" />
+              <e p="banner" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Update.cshtml" t="Include" />
+              </e>
               <e p="Brand" t="Include">
                 <e p="Create.cshtml" t="Include" />
                 <e p="Index.cshtml" t="Include" />
@@ -102,10 +109,8 @@
           <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20210314163554_connectDatabase.cs" t="Include" />
-          <e p="20210314163554_connectDatabase.Designer.cs" t="Include" />
-          <e p="20210317183155_createSliderAndBanner.cs" t="Include" />
-          <e p="20210317183155_createSliderAndBanner.Designer.cs" t="Include" />
+          <e p="20210317221805_connectDatabase.cs" t="Include" />
+          <e p="20210317221805_connectDatabase.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -155,6 +160,7 @@
           <e p="CategoryCreateVM.cs" t="Include" />
           <e p="CategoryUpdateVM.cs" t="Include" />
           <e p="ContactVM.cs" t="Include" />
+          <e p="CreateBannerVM.cs" t="Include" />
           <e p="CreateSliderVM.cs" t="Include" />
           <e p="HomeVM.cs" t="Include" />
           <e p="LoginVm.cs" t="Include" />
@@ -388,6 +394,8 @@
                 <e p="5.jpg" t="Include" />
                 <e p="6.jpg" t="Include" />
                 <e p="7.jpg" t="Include" />
+                <e p="a54988d6-5aac-4581-bd52-9b6ee6b216b4ffff.jpeg.jfif" t="Include" />
+                <e p="f8cc4409-8dbb-450f-beaf-8f5ab5273f6aCoding.jpg" t="Include" />
               </e>
               <e p="blog-post" t="Include">
                 <e p="1.jpg" t="Include" />
@@ -611,6 +619,8 @@
                 <e p="4.jpg" t="Include" />
               </e>
               <e p="slider" t="Include">
+                <e p="3b497b11-9431-4c6a-8abd-88c2429124e7ffff.jpeg.jfif" t="Include" />
+                <e p="521e2ff8-1395-4deb-9939-a7e27d03aea5website.jpg" t="Include" />
                 <e p="slide1.jpg" t="Include" />
                 <e p="slide2.jpg" t="Include" />
                 <e p="slide3.jpg" t="Include" />

@@ -22,13 +22,13 @@ namespace XanElectronics.Areas.Admin.Controllers
         // GET
         public IActionResult Index()
         {
-            return View(_context.Sales.Where(x=>x.IsFinished==false).Include(s=>s.AppUser).ToList());
+            return View(_context.Sales.Where(x=>x.IsFinished==false).Include(s=>s.AppUser).OrderByDescending(x=>x.Id).ToList());
             
         }
         
         public IActionResult FinishedSales()
         {
-            return View(_context.Sales.Where(x=>x.IsFinished==true).Include(s=>s.AppUser).ToList());
+            return View(_context.Sales.Where(x=>x.IsFinished==true).Include(s=>s.AppUser).OrderByDescending(x=>x.Id).ToList());
             
         }
         
@@ -49,6 +49,16 @@ namespace XanElectronics.Areas.Admin.Controllers
                 .ThenInclude(s=>s.Product).FirstOrDefault(p => p.Id == id);
             if (sale == null) return NotFound();
             return View(sale);
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+            var sale = _context.Sales.FirstOrDefault(x => x.Id == id);
+            if (sale == null) return NotFound();
+            _context.Sales.Remove(sale);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
