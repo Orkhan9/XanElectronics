@@ -58,7 +58,7 @@ namespace XanElectronics.Areas.Admin.Controllers
             if (sale == null) return NotFound();
             _context.Sales.Remove(sale);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(FinishedSales));
         }
     }
 }

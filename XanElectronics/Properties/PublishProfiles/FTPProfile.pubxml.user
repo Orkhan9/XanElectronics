@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2NVOCZT2Kkq5e5meb+ceqAAAAAACAAAAAAAQZgAAAAEAACAAAACBzgADUpLyqnydrAYWGUI9otUn8vaFs3TvQLO29ju2dgAAAAAOgAAAAAIAACAAAABHIU9zfWVsZM4ED+g02rFLsqLuxl2hfrvKDXJZHwgSVSAAAABgD62jbMGwg3Z1VcdwgsyS4YSAW/qYtEfMCc7AttJs00AAAAD5S2cgoIBh/eW39CmPoj+7lL1Qd8yLJLF9jg4jPN9Xx06s+r0+nennMXyvFdrZh31Ljq12PGeGbj5ZWE6e92nT</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.site4now.net/site</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site3</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
@@ -368,7 +368,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>03/18/2021 22:57:32</publishTime>
+      <publishTime>03/19/2021 02:28:28</publishTime>
     </File>
     <File Include="wwwroot/admin/css/maps/style.css.map">
       <publishTime>01/10/2021 00:32:47</publishTime>
@@ -1718,25 +1718,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/10/2021 00:32:47</publishTime>
     </File>
     <File Include="XanElectronics.deps.json">
-      <publishTime>03/18/2021 22:57:31</publishTime>
+      <publishTime>03/19/2021 02:28:28</publishTime>
     </File>
     <File Include="XanElectronics.dll">
-      <publishTime>03/18/2021 22:57:28</publishTime>
+      <publishTime>03/19/2021 02:28:19</publishTime>
     </File>
     <File Include="XanElectronics.exe">
-      <publishTime>03/18/2021 22:57:28</publishTime>
+      <publishTime>03/19/2021 02:28:19</publishTime>
     </File>
     <File Include="XanElectronics.pdb">
-      <publishTime>03/18/2021 22:57:28</publishTime>
+      <publishTime>03/19/2021 02:28:19</publishTime>
     </File>
     <File Include="XanElectronics.runtimeconfig.json">
-      <publishTime>03/18/2021 22:48:02</publishTime>
+      <publishTime>03/19/2021 02:28:20</publishTime>
     </File>
     <File Include="XanElectronics.Views.dll">
-      <publishTime>03/18/2021 22:57:30</publishTime>
+      <publishTime>03/19/2021 02:28:20</publishTime>
     </File>
     <File Include="XanElectronics.Views.pdb">
-      <publishTime>03/18/2021 22:57:30</publishTime>
+      <publishTime>03/19/2021 02:28:20</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>

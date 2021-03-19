@@ -15,11 +15,11 @@ function AddToBasket(elements) {
         item.addEventListener("click", function (e) {
             console.log(allAddSpan);
             let id = e.target.getAttribute("data-id");
-
             let formdata = new FormData();
             if (document.getElementById("pageName").value === "detail") {
                 let addProductCount = document.getElementById("addProductCount").value;
-                if (addProductCount > 1) {
+                let productDbCount=document.getElementById("productDbCount").value;
+                if (addProductCount > 1 && addProductCount<=productDbCount) {
                     formdata.append("addProductCount", addProductCount);
                 }
             }

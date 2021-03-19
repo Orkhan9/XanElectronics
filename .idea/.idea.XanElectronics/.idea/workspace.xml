@@ -23,48 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="084ed5c2-fa76-4442-bc92-c188e2be5407" name="Default Changelist" comment="added MySql">
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Migrations/20210317221805_connectDatabase.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XanElectronics/Migrations/20210317221805_connectDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XanElectronics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/XanElectronics/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/MessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/MessageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/SaleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/SubscriptionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/SubscriptionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Message/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Message/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Sale/FinishedSales.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Sale/FinishedSales.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Subscription/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Subscription/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20210314163554_connectDatabase.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20210314163554_connectDatabase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20210317183155_createSliderAndBanner.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Migrations/20210317183155_createSliderAndBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Properties/PublishProfiles/FTPProfile.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Properties/PublishProfiles/FTPProfile.pubxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/Properties/PublishProfiles/FTPProfile.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Properties/PublishProfiles/FTPProfile.pubxml.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Account/Register.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Footer/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Footer/Default.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/Views/Shop/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/Views/Shop/Detail.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/bin/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Message/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Message/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Subscription/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Subscription/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Basket/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Footer/Default.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Footer/Default.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Header/Default.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Detail.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/Razor/Views/Shop/Detail.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.RazorTargetAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/XanElectronics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +64,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D1746F2-9DF0-47A4-9D82-6D67D1E3B282/3/JwtHeader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XanElectronics/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ContactController.cs" />
-      <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Pages/Message/Index.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/MessageController.cs" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Message/Index.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Models/Product.cs" />
@@ -105,7 +85,6 @@
       <option value="$PROJECT_DIR$/XanElectronics/ViewModels/ProductCreateVM.cs" />
       <option value="$PROJECT_DIR$/XanElectronics/Dto/ProductUpdateDto.cs" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Update.cshtml" />
-      <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" />
       <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/css/style.css" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Category/Index.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Brand/Index.cshtml" />
@@ -116,7 +95,6 @@
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Shared/_partialAdminProduct.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Controllers/ProductController.cs" />
       <option value="$PROJECT_DIR$/XanElectronics/Areas/Admin/Views/Product/Index.cshtml" />
-      <option value="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Views/Basket/BasketSale.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Views/Basket/Index.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Controllers/BasketController.cs" />
@@ -138,6 +116,10 @@
       <option value="$PROJECT_DIR$/XanElectronics/Views/Account/Login.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Views/Account/Register.cshtml" />
       <option value="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Footer/Default.cshtml" />
+      <option value="$PROJECT_DIR$/XanElectronics/XanElectronics.csproj" />
+      <option value="$PROJECT_DIR$/XanElectronics/Views/Shared/Components/Header/Default.cshtml" />
+      <option value="$PROJECT_DIR$/XanElectronics/wwwroot/assets/js/basket-pagination.js" />
+      <option value="$PROJECT_DIR$/XanElectronics/Views/Shop/Detail.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lTb028mqyz8fXNMGo0deJfOFuf" />
@@ -287,6 +269,10 @@
       <workItem from="1616014644760" duration="80000" />
       <workItem from="1616089151270" duration="57000" />
       <workItem from="1616092786011" duration="79000" />
+      <workItem from="1616099912628" duration="46000" />
+      <workItem from="1616103589458" duration="1070000" />
+      <workItem from="1616114223028" duration="843000" />
+      <workItem from="1616115239003" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="added subsribe">
       <created>1607678084964</created>
@@ -491,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616014712681</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="delete message,email">
+      <created>1616099946043</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616099946043</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +521,8 @@
     <MESSAGE value="added MySql" />
     <MESSAGE value="improved search" />
     <MESSAGE value="added Slider and Banner CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Slider and Banner CRUD" />
+    <MESSAGE value="delete message,email" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete message,email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
